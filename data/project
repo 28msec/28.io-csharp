@@ -1,0 +1,25 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.2",
+  "apis":
+  [
+    {
+      "path": "_datasources",
+      "description": "Datasources operations"
+    },
+    {
+      "path": "_queries",
+      "description": "Query operations"
+    },
+    {
+      "path": "_auth",
+      "description": "Authentication"
+    }
+  ],
+  "info":
+  {
+    "title": "Project REST API",
+    "description": "This REST API defines methods to manipulate and explore datasources and to manipulate and execute queries. All methods, except the execution of a public query require authentication in the form of a Project token, passed as a query parameter named \"token\".  A Project token for each project owned by an account is obtained when logging in. For 28.io projects the login endpoint is \"/api/session\" and is documented in the 28.io REST API. For xbrl.io projects the login endpoint is \"/session\" and is documented in the xbrl.io REST API. Both endpoints are OAuth2 compliant. Alternatively, a project can define its own login process.",
+    "contact": "hello@28.io"
+  }
+}

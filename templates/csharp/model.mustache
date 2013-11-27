@@ -1,0 +1,24 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
+
+namespace {{package}} {
+
+  {{#models}}
+  {{#model}}
+  [DataContract(Name = "{{classname}}")]
+  public class {{classVarName}} {
+    {{#vars}}
+
+    {{#description}}/* {{{description}}} */
+    {{/description}}
+    [DataMember(Name = "{{baseName}}")]
+    public {{{datatype}}} {{name}} { get; set; }
+
+    {{/vars}}
+  }
+  {{/model}}
+  {{/models}}
+}
