@@ -13,17 +13,21 @@ Fast bootstrap
 
 - add references to the dlls _28.io.Project.dll and NewtonSoft.Json.dll from the folder output/csharp/bin
 - create a token using the authentication api
+
 ```
 var apiPortal = new _28.io.Project.Api.ApiApi();
 dynamic login = Newtonsoft.Json.JsonConvert.DeserializeObject(apiPortal.authenticateAsString("client_credentials", HttpUtility.UrlEncode(_EMAIL), HttpUtility.UrlEncode(_PASSWORD), ""));
 string token = login.project_tokens["project_" + _PROJECT];
 ```
+
 - use the token to execute queries from your 28.io project
+
 ```
 var apiQueries = new _28.io.Project.Api._queriesApi();
 apiQueries.setBasePath("http://" + _PROJECT + ".28.io/v1");
 var results = apiQueries.executeQuerySequentialAsString("public/query.jq?parameter1=value1", "", token);
 ```
+
 - for complete reference consult output/csharp/html/index.html
 
 Improving the code
