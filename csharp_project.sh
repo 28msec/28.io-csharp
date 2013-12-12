@@ -17,6 +17,6 @@ if [ -f target/scala-$SCALA_RUNNER_VERSION/swagger-codegen.jar ]; then
   scala -cp target/scala-$SCALA_RUNNER_VERSION/swagger-codegen.jar $ags || exit 1
   doxygen ${DIR}/Doxyfile
 else
-  echo "File not found: ${DIR}/target/scala-$SCALA_RUNNER_VERSION/swagger-codegen.jar"
+  echo "File not found: ${APP_DIR}/target/scala-$SCALA_RUNNER_VERSION/swagger-codegen.jar"
   echo "Please set scalaVersion := \"$SCALA_RUNNER_VERSION\" in build.sbt and run ./sbt assembly"
 fi

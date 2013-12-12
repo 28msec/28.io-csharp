@@ -11,8 +11,8 @@ To learn JSONiq, we recommend you to checkout the <a href="http://jsoniq.org/">J
 Fast bootstrap
 ----------------------------
 
-- add references to the dlls _28.io.Project.dll and NewtonSoft.Json.dll from the folder output/csharp/bin
-- create a token using the authentication api
+-   add references to the dlls _28.io.Project.dll and NewtonSoft.Json.dll from the folder output/csharp/bin
+-   create a token using the authentication api
 
 ```
 var apiPortal = new _28.io.Project.Api.ApiApi();
@@ -20,7 +20,7 @@ dynamic login = Newtonsoft.Json.JsonConvert.DeserializeObject(apiPortal.authenti
 string token = login.project_tokens["project_" + _PROJECT];
 ```
 
-- use the token to execute queries from your 28.io project
+-   use the token to execute queries from your 28.io project
 
 ```
 var apiQueries = new _28.io.Project.Api._queriesApi();
@@ -34,29 +34,38 @@ Improving the code
 ----------------------------
 
 In order to allow better customization of the generated code, the 28.io language bindings are based on 
-swagger documentation engine and swagger-codegen (https://github.com/wordnik/swagger-codegen).
+swagger documentation engine and <a href="https://github.com/wordnik/swagger-codegen">swagger-codegen</a>.
 
 ###Install prerequisites###
 
-Install swagger-codegen prerequisites: git, scala 2.9.1, maven
-```
-sudo apt-get install git scala=2.9.1.dfsg-3 maven
-```
+Install swagger-codegen prerequisites: <a href="http://git-scm.com/downloads">git</a>, 
+<a href="http://www.scala-lang.org/download/">scala 2.9.1</a>, <a href="http://maven.apache.org/download.cgi">maven</a>.
+You also need to install <a href="http://www.stack.nl/~dimitri/doxygen/download.html">doxygen</a> to recreate the api documentation.
+
+Windows users will require also <a href="http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html">sbt</a> and 
+to have the installation directories for java, scala, git, doxygen and sbt in the PATH variable.
 
 ###Clone and build swagger-codegen###
 
-Install swagger-codegen, then build the sources.
+Install swagger-codegen:
+
 ```
 git clone https://github.com/wordnik/swagger-codegen.git
 cd swagger-codegen
+```
+
+Then build swagger-codegen.
+
+For Unix:
+
+```
 ./sbt assembly
 ```
 
-###Install doxygen###
+or for Windows
 
-Install doxygen to recreate the api documentation:
 ```
-sudo apt-get install doxygen
+sbt assembly
 ```
 
 ###Clone 28.io C# language binding###
@@ -68,14 +77,25 @@ git clone https://github.com/28msec/28.io-csharp.git _28.io
 
 ###Build 28.io C# language binding###
 
-Execute the build script. The new code (model, apis and invoker) and the documentation in html format are generated in _28.io/output/csharp.
+Execute the build script.
+
+For Unix:
+
 ```
 ./_28.io/csharp_project.sh
 ```
 
+or for Windows
+
+```
+_28.io\csharp_project.bat
+```
+
+The new code (model, apis and invoker) and the documentation in html format are generated in _28.io/output/csharp.
+
 More Information
 ----------------------------
 
-Learn more on 28.io at http://28.io or read the 28.io documentation at http://28.io/documentation.
+Learn more on 28.io at <a href="http://28.io">28.io</a> or read the 28.io documentation at <a href="http://28.io/documentation">http://28.io/documentation</a>.
 
-Familiarize with JSONiq at http://jsoniq.org/.
+Familiarize with JSONiq at <a href="http://jsoniq.org/">http://jsoniq.org/</a>.
