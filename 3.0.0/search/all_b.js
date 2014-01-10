@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['truncatecollection',['truncateCollection',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#adda890019d62a64fbbca5a307547e3fc',1,'_28::io::Project::Api::_datasourcesApi']]],
-  ['truncatecollectionasstring',['truncateCollectionAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a7ef0ae59cbd4396d0f46caab6f91c555',1,'_28::io::Project::Api::_datasourcesApi']]]
+  ['savequery',['saveQuery',['../class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi.html#a06312ea06e71eb4220352bfd3e9075e9',1,'_28::io::Project::Api::_queriesApi']]],
+  ['savequeryasstring',['saveQueryAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi.html#ab0620e7c1a5c9a176d46bd1eaeee7df9',1,'_28::io::Project::Api::_queriesApi']]],
+  ['success',['Success',['../class__28_1_1io_1_1Project_1_1Model_1_1Success.html',1,'_28::io::Project::Model']]]
 ];

@@ -31,19 +31,6 @@
         </inbodydescription>
         <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="9" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="9" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a902eb88495cf8f1aa4b18990c513b944" prot="private" static="no" mutable="no">
-        <type>*&lt;/code &gt; if</type>
-        <definition>*&lt;/code&gt; if _28.io.Project.Api._queriesApi.specified</definition>
-        <argsstring></argsstring>
-        <name>specified</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="105" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="105" bodyend="-1"/>
-      </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7f89565887b10efff7fff3da9279adee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -163,6 +150,896 @@
         </inbodydescription>
         <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="74" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="74" bodyend="101"/>
       </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7a3d58c6ba93d6a18f1b97df953cccd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" kindref="compound">QueryResult28IO</ref></type>
+        <definition>QueryResult28IO _28.io.Project.Api._queriesApi.executeSimpleQuery</definition>
+        <argsstring>(string query_path, string format, string token)</argsstring>
+        <name>executeSimpleQuery</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Executes a non-side-effecting query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method executes a non-side-effecting query and serialize its results using a chosen serialization method. The following serialization methods are available: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid</ulink>, <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML</ulink>, and <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML</ulink>.</para><para>It is also possible to use the 28.io serialization method. The 28.io serialization produces a JSON object with metadata about the items produced as query result. This serialization method format is unstable and will be documented as soon we are ready to commit to backward compatibility.</para><para></para><para>The HTTP response of this method is using streaming. Therefore, if an error occurs after part of the response has already been sent to the client, the response status code will be 200. In this case, the streaming of the HTTP response will stop and the following string will be sent <computeroutput>&quot;\n\n\nAn error occurred during the processing of the request.\n&quot;</computeroutput> followed by the error description. To always get a well-formed JSON error response, and the expected HTTP error status code, it is possible to issue the same request using POST. Note however that, in this case, the HTTP response will not stream.</para><para><heading level="4">Query Serialization</heading>
+</para><para>The serialization method can be chosen by means of the <computeroutput>Accept</computeroutput> header or by specifying the <computeroutput>format</computeroutput> parameter. In case no serialization method is specified, JSON-XML-hybrid is used.</para><para>Specifically, the serialization method is chosen as follows: <orderedlist>
+<listitem>
+<para>if an <computeroutput>Accept</computeroutput> header is specified and if it contains at least one supported mime-type/charset pair, the serialization method corresponding to the most preferred one (according to the <ulink url="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1">&quot;q&quot; modifier</ulink> first and the order in which the mime-types are specified second) among those supported is chosen;</para></listitem>
+<listitem>
+<para>otherwise, if a <computeroutput>format</computeroutput> parameter is specified, the corresponding serialization method is chosen;</para></listitem>
+<listitem>
+<para>otherwise, JSON-XML-hybrid is used.</para></listitem>
+</orderedlist>
+</para><para>If the Accept header is specified and it contains at least one supported mime-type, the preferred supported mime-type is used to choose the serialization method, according to the following mapping: <itemizedlist>
+<listitem>
+<para><computeroutput>application/mixed-json-xml</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/json</computeroutput> or any mime-type which ends with <computeroutput>+json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/xml</computeroutput>, <computeroutput>application/xml</computeroutput> or any mime-type which ends with <computeroutput>+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/xhtml+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/28io+json</computeroutput>: 28.io Serialization (format definition unstable)</para></listitem>
+<listitem>
+<para><computeroutput>* / *</computeroutput>: the <computeroutput>Accept</computeroutput> header is ignored and the format parameter, if specified, is used to choose the serialization method.</para></listitem>
+</itemizedlist>
+</para><para>Any mime-type not matching one of the conditions listed above is not supported by this resource.</para><para>If the format parameter has been specified and is used to choose the serialization method, the following mapping is used: <itemizedlist>
+<listitem>
+<para><computeroutput>.mixed</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.text</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xhtml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.28io-json</computeroutput>: 28.io Serialization (format definition unstable).</para></listitem>
+</itemizedlist>
+</para><para><heading level="4">Response Content-Type and Encoding</heading>
+</para><para>The content-type of the response is determined as follows:<orderedlist>
+<listitem>
+<para>If the serialization method has been chosen depending on one of the mime-types specified in the <computeroutput>Accept</computeroutput> header, the following criterion are used: <itemizedlist>
+<listitem>
+<para>if the used mime-type is <computeroutput>* / *</computeroutput> or <computeroutput>application/mixed-json-xml</computeroutput> then the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml</computeroutput>, otherwise <computeroutput>application/json</computeroutput></para></listitem>
+<listitem>
+<para>for any other mime-type, the same mime-type is used in the response.</para></listitem>
+</itemizedlist>
+In case no charset has been specified for that mime-type in the <computeroutput>Accept</computeroutput> header, <computeroutput>UTF-8</computeroutput> is used. Otherwise, the specified charset is used.</para></listitem>
+<listitem>
+<para>If the serialization method has been chosen due to the format parameter or the query file extension the content-type of the response is chosen as follows: <itemizedlist>
+<listitem>
+<para>JSON-XML-hybrid serialization: the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml;charset=UTF-8</computeroutput>, otherwise <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>JSON serialization: <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XML serialization: <computeroutput>application/xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>Text serialization: <computeroutput>text/plain;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>HTML serialization: <computeroutput>text/html;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XHTML serialization: <computeroutput>application/xhtml+xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>28.io serialization: <computeroutput>application/28io+json;charset=UTF-8</computeroutput></para></listitem>
+</itemizedlist>
+</para></listitem>
+</orderedlist>
+</para><para>If any of the items produced by the query cannot be serialized using the chosen serialization method a <computeroutput>500 internal server error</computeroutput> will be raised.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt; and can contain slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="110" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="110" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a953d04be5141cd6523b812ae4ceb06eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.executeSimpleQueryAsString</definition>
+        <argsstring>(string query_path, string format, string token)</argsstring>
+        <name>executeSimpleQueryAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Executes a non-side-effecting query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method executes a non-side-effecting query and serialize its results using a chosen serialization method. The following serialization methods are available: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid</ulink>, <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML</ulink>, and <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML</ulink>.</para><para>It is also possible to use the 28.io serialization method. The 28.io serialization produces a JSON object with metadata about the items produced as query result. This serialization method format is unstable and will be documented as soon we are ready to commit to backward compatibility.</para><para></para><para>The HTTP response of this method is using streaming. Therefore, if an error occurs after part of the response has already been sent to the client, the response status code will be 200. In this case, the streaming of the HTTP response will stop and the following string will be sent <computeroutput>&quot;\n\n\nAn error occurred during the processing of the request.\n&quot;</computeroutput> followed by the error description. To always get a well-formed JSON error response, and the expected HTTP error status code, it is possible to issue the same request using POST. Note however that, in this case, the HTTP response will not stream.</para><para><heading level="4">Query Serialization</heading>
+</para><para>The serialization method can be chosen by means of the <computeroutput>Accept</computeroutput> header or by specifying the <computeroutput>format</computeroutput> parameter. In case no serialization method is specified, JSON-XML-hybrid is used.</para><para>Specifically, the serialization method is chosen as follows: <orderedlist>
+<listitem>
+<para>if an <computeroutput>Accept</computeroutput> header is specified and if it contains at least one supported mime-type/charset pair, the serialization method corresponding to the most preferred one (according to the <ulink url="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1">&quot;q&quot; modifier</ulink> first and the order in which the mime-types are specified second) among those supported is chosen;</para></listitem>
+<listitem>
+<para>otherwise, if a <computeroutput>format</computeroutput> parameter is specified, the corresponding serialization method is chosen;</para></listitem>
+<listitem>
+<para>otherwise, JSON-XML-hybrid is used.</para></listitem>
+</orderedlist>
+</para><para>If the Accept header is specified and it contains at least one supported mime-type, the preferred supported mime-type is used to choose the serialization method, according to the following mapping: <itemizedlist>
+<listitem>
+<para><computeroutput>application/mixed-json-xml</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/json</computeroutput> or any mime-type which ends with <computeroutput>+json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/xml</computeroutput>, <computeroutput>application/xml</computeroutput> or any mime-type which ends with <computeroutput>+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/xhtml+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/28io+json</computeroutput>: 28.io Serialization (format definition unstable)</para></listitem>
+<listitem>
+<para><computeroutput>* / *</computeroutput>: the <computeroutput>Accept</computeroutput> header is ignored and the format parameter, if specified, is used to choose the serialization method.</para></listitem>
+</itemizedlist>
+</para><para>Any mime-type not matching one of the conditions listed above is not supported by this resource.</para><para>If the format parameter has been specified and is used to choose the serialization method, the following mapping is used: <itemizedlist>
+<listitem>
+<para><computeroutput>.mixed</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.text</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xhtml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.28io-json</computeroutput>: 28.io Serialization (format definition unstable).</para></listitem>
+</itemizedlist>
+</para><para><heading level="4">Response Content-Type and Encoding</heading>
+</para><para>The content-type of the response is determined as follows:<orderedlist>
+<listitem>
+<para>If the serialization method has been chosen depending on one of the mime-types specified in the <computeroutput>Accept</computeroutput> header, the following criterion are used: <itemizedlist>
+<listitem>
+<para>if the used mime-type is <computeroutput>* / *</computeroutput> or <computeroutput>application/mixed-json-xml</computeroutput> then the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml</computeroutput>, otherwise <computeroutput>application/json</computeroutput></para></listitem>
+<listitem>
+<para>for any other mime-type, the same mime-type is used in the response.</para></listitem>
+</itemizedlist>
+In case no charset has been specified for that mime-type in the <computeroutput>Accept</computeroutput> header, <computeroutput>UTF-8</computeroutput> is used. Otherwise, the specified charset is used.</para></listitem>
+<listitem>
+<para>If the serialization method has been chosen due to the format parameter or the query file extension the content-type of the response is chosen as follows: <itemizedlist>
+<listitem>
+<para>JSON-XML-hybrid serialization: the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml;charset=UTF-8</computeroutput>, otherwise <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>JSON serialization: <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XML serialization: <computeroutput>application/xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>Text serialization: <computeroutput>text/plain;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>HTML serialization: <computeroutput>text/html;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XHTML serialization: <computeroutput>application/xhtml+xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>28.io serialization: <computeroutput>application/28io+json;charset=UTF-8</computeroutput></para></listitem>
+</itemizedlist>
+</para></listitem>
+</orderedlist>
+</para><para>If any of the items produced by the query cannot be serialized using the chosen serialization method a <computeroutput>500 internal server error</computeroutput> will be raised.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt; and can contain slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="153" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="153" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1acda67ff00bcb5581ea8fc85bef3def0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" kindref="compound">QueryResult28IO</ref></type>
+        <definition>QueryResult28IO _28.io.Project.Api._queriesApi.executeQuery</definition>
+        <argsstring>(string query_path, string format, string token)</argsstring>
+        <name>executeQuery</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Executes a query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method executes a query and serialize its results using a chosen serialization method. The following serialization methods are available: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid</ulink>, <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML</ulink>, and <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML</ulink>.</para><para>It is also possible to use the 28.io serialization method. The 28.io serialization produces a JSON object with metadata about the items produced as query result. This serialization method format is unstable and will be documented as soon we are ready to commit to backward compatibility.</para><para><heading level="4">Query Serialization</heading>
+</para><para>If the query specifies the response content-type or encoding using the <ulink url="http://28.io/documentation/latest/modules/http/response?anchor=content-type-1">HTTP response module</ulink> and the query execution completes without raising errors, its serialization method cannot be overridden through this api. Similarly, if the query <ulink url="http://28.io/documentation/latest/modules/http/response?anchor=status-code-1">specifies a response status code</ulink> and the query execution completes without raising errors, the HTTP status code set by the query is systematically used as the response status code.</para><para>If the query does not specify a response content-type, the serialization method can be chosen by means of the <computeroutput>Accept</computeroutput> header or by specifying the <computeroutput>format</computeroutput> parameter. In case the query does not specify a response content-type and no serialization method is specified, JSON-XML-hybrid is used.</para><para>Specifically, the serialization method is chosen as follows: <orderedlist>
+<listitem>
+<para>if an <computeroutput>Accept</computeroutput> header is specified and if it contains at least one supported mime-type/charset pair, the serialization method corresponding to the most preferred one (according to the <ulink url="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1">&quot;q&quot; modifier</ulink> first and the order in which the mime-types are specified second) among those supported is chosen;</para></listitem>
+<listitem>
+<para>otherwise, if a <computeroutput>format</computeroutput> parameter is specified, the corresponding serialization method is chosen;</para></listitem>
+<listitem>
+<para>otherwise, JSON-XML-hybrid is used.</para></listitem>
+</orderedlist>
+</para><para>If the Accept header is specified and it contains at least one supported mime-type, the preferred supported mime-type is used to choose the serialization method, according to the following mapping: <itemizedlist>
+<listitem>
+<para><computeroutput>application/mixed-json-xml</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/json</computeroutput> or any mime-type which ends with <computeroutput>+json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/xml</computeroutput>, <computeroutput>application/xml</computeroutput> or any mime-type which ends with <computeroutput>+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/xhtml+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/28io+json</computeroutput>: 28.io Serialization (format definition unstable)</para></listitem>
+<listitem>
+<para><computeroutput>* / *</computeroutput>: the <computeroutput>Accept</computeroutput> header is ignored and the format parameter, if specified, is used to choose the serialization method.</para></listitem>
+</itemizedlist>
+</para><para>Any mime-type not matching one of the conditions listed above is not supported by this resource.</para><para>If the format parameter is used to choose the serialization method, the following mapping is used: <itemizedlist>
+<listitem>
+<para><computeroutput>.mixed</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.text</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xhtml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.28io-json</computeroutput>: 28.io Serialization (format definition unstable).</para></listitem>
+</itemizedlist>
+</para><para><heading level="4">Response Content-Type and Encoding</heading>
+</para><para>The content-type of the response is determined as follows: <orderedlist>
+<listitem>
+<para>If the query has set the response content-type, it will be used in the response. If this content-type, however, is not acceptable according to the <computeroutput>Accept</computeroutput> header specified in the request, an error will be raised and the response status code will be set to <computeroutput>406</computeroutput>. Note that <computeroutput>application/mixed-json-xml</computeroutput> is treated as <computeroutput>* / *</computeroutput> when considering if the content-type set by the query is accepted or not.</para></listitem>
+<listitem>
+<para>If the serialization method has been chosen depending on one of the mime-types specified in the <computeroutput>Accept</computeroutput> header, the following criterion are used: <itemizedlist>
+<listitem>
+<para>if the used mime-type is <computeroutput>* / *</computeroutput> or <computeroutput>application/mixed-json-xml</computeroutput> then the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml</computeroutput>, otherwise <computeroutput>application/json</computeroutput></para></listitem>
+<listitem>
+<para>for any other mime-type, the same mime-type is used in the response.</para></listitem>
+</itemizedlist>
+In case no charset has been set by the query or specified for that mime-type in the <computeroutput>Accept</computeroutput> header, <computeroutput>UTF-8</computeroutput> is used.</para></listitem>
+<listitem>
+<para>If the serialization method has been chosen due to the format parameter or the query file extension the content-type of the response is chosen as follows: <itemizedlist>
+<listitem>
+<para>JSON-XML-hybrid serialization: the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml;charset=UTF-8</computeroutput>, otherwise <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>JSON serialization: <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XML serialization: <computeroutput>application/xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>Text serialization: <computeroutput>text/plain;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>HTML serialization: <computeroutput>text/html;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XHTML serialization: <computeroutput>application/xhtml+xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>28.io serialization: <computeroutput>application/28io+json;charset=UTF-8</computeroutput></para></listitem>
+</itemizedlist>
+</para></listitem>
+</orderedlist>
+</para><para>If the items produced by the query cannot be serialized using the chosen serialization method a <computeroutput>500 internal server error</computeroutput> will be raised.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt; and can contain slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="189" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="189" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab071843d2a9a1954a52ff93b0c207bbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.executeQueryAsString</definition>
+        <argsstring>(string query_path, string format, string token)</argsstring>
+        <name>executeQueryAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Executes a query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method executes a query and serialize its results using a chosen serialization method. The following serialization methods are available: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid</ulink>, <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text</ulink>, <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML</ulink>, and <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML</ulink>.</para><para>It is also possible to use the 28.io serialization method. The 28.io serialization produces a JSON object with metadata about the items produced as query result. This serialization method format is unstable and will be documented as soon we are ready to commit to backward compatibility.</para><para><heading level="4">Query Serialization</heading>
+</para><para>If the query specifies the response content-type or encoding using the <ulink url="http://28.io/documentation/latest/modules/http/response?anchor=content-type-1">HTTP response module</ulink> and the query execution completes without raising errors, its serialization method cannot be overridden through this api. Similarly, if the query <ulink url="http://28.io/documentation/latest/modules/http/response?anchor=status-code-1">specifies a response status code</ulink> and the query execution completes without raising errors, the HTTP status code set by the query is systematically used as the response status code.</para><para>If the query does not specify a response content-type, the serialization method can be chosen by means of the <computeroutput>Accept</computeroutput> header or by specifying the <computeroutput>format</computeroutput> parameter. In case the query does not specify a response content-type and no serialization method is specified, JSON-XML-hybrid is used.</para><para>Specifically, the serialization method is chosen as follows: <orderedlist>
+<listitem>
+<para>if an <computeroutput>Accept</computeroutput> header is specified and if it contains at least one supported mime-type/charset pair, the serialization method corresponding to the most preferred one (according to the <ulink url="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1">&quot;q&quot; modifier</ulink> first and the order in which the mime-types are specified second) among those supported is chosen;</para></listitem>
+<listitem>
+<para>otherwise, if a <computeroutput>format</computeroutput> parameter is specified, the corresponding serialization method is chosen;</para></listitem>
+<listitem>
+<para>otherwise, JSON-XML-hybrid is used.</para></listitem>
+</orderedlist>
+</para><para>If the Accept header is specified and it contains at least one supported mime-type, the preferred supported mime-type is used to choose the serialization method, according to the following mapping: <itemizedlist>
+<listitem>
+<para><computeroutput>application/mixed-json-xml</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/json</computeroutput> or any mime-type which ends with <computeroutput>+json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/xml</computeroutput>, <computeroutput>application/xml</computeroutput> or any mime-type which ends with <computeroutput>+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>text/html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/xhtml+xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>application/28io+json</computeroutput>: 28.io Serialization (format definition unstable)</para></listitem>
+<listitem>
+<para><computeroutput>* / *</computeroutput>: the <computeroutput>Accept</computeroutput> header is ignored and the format parameter, if specified, is used to choose the serialization method.</para></listitem>
+</itemizedlist>
+</para><para>Any mime-type not matching one of the conditions listed above is not supported by this resource.</para><para>If the format parameter is used to choose the serialization method, the following mapping is used: <itemizedlist>
+<listitem>
+<para><computeroutput>.mixed</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON-XML-hybrid Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.json</computeroutput>: <ulink url="http://jsoniq.org/docs/JSONiqExtensionToXQuery/html-single/#section-json-serialization">JSON Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xml-output">XML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.text</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#text-output">Text Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.html</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#html-output">HTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.xhtml</computeroutput>: <ulink url="http://www.w3.org/TR/xslt-xquery-serialization/#xhtml-output">XHTML Serialization</ulink></para></listitem>
+<listitem>
+<para><computeroutput>.28io-json</computeroutput>: 28.io Serialization (format definition unstable).</para></listitem>
+</itemizedlist>
+</para><para><heading level="4">Response Content-Type and Encoding</heading>
+</para><para>The content-type of the response is determined as follows: <orderedlist>
+<listitem>
+<para>If the query has set the response content-type, it will be used in the response. If this content-type, however, is not acceptable according to the <computeroutput>Accept</computeroutput> header specified in the request, an error will be raised and the response status code will be set to <computeroutput>406</computeroutput>. Note that <computeroutput>application/mixed-json-xml</computeroutput> is treated as <computeroutput>* / *</computeroutput> when considering if the content-type set by the query is accepted or not.</para></listitem>
+<listitem>
+<para>If the serialization method has been chosen depending on one of the mime-types specified in the <computeroutput>Accept</computeroutput> header, the following criterion are used: <itemizedlist>
+<listitem>
+<para>if the used mime-type is <computeroutput>* / *</computeroutput> or <computeroutput>application/mixed-json-xml</computeroutput> then the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml</computeroutput>, otherwise <computeroutput>application/json</computeroutput></para></listitem>
+<listitem>
+<para>for any other mime-type, the same mime-type is used in the response.</para></listitem>
+</itemizedlist>
+In case no charset has been set by the query or specified for that mime-type in the <computeroutput>Accept</computeroutput> header, <computeroutput>UTF-8</computeroutput> is used.</para></listitem>
+<listitem>
+<para>If the serialization method has been chosen due to the format parameter or the query file extension the content-type of the response is chosen as follows: <itemizedlist>
+<listitem>
+<para>JSON-XML-hybrid serialization: the response content type depends on the first item of the result. If it is an XML node the response content-type will be <computeroutput>application/xml;charset=UTF-8</computeroutput>, otherwise <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>JSON serialization: <computeroutput>application/json;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XML serialization: <computeroutput>application/xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>Text serialization: <computeroutput>text/plain;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>HTML serialization: <computeroutput>text/html;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>XHTML serialization: <computeroutput>application/xhtml+xml;charset=UTF-8</computeroutput></para></listitem>
+<listitem>
+<para>28.io serialization: <computeroutput>application/28io+json;charset=UTF-8</computeroutput></para></listitem>
+</itemizedlist>
+</para></listitem>
+</orderedlist>
+</para><para>If the items produced by the query cannot be serialized using the chosen serialization method a <computeroutput>500 internal server error</computeroutput> will be raised.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;private&lt;/code&gt; and can contain slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="232" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="232" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1afdecaf52eea03198221fa8619198cea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.getQuery</definition>
+        <argsstring>(string query_path, string token)</argsstring>
+        <name>getQuery</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a query source code </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the source code of a query. The response content-type is set according to the query language. If the query does not <ulink url="http://www.w3.org/TR/xquery-30/#id-version-declaration">declare its own dialect</ulink>, the query file extension is used to infer the language of the query. If the query file extension is <computeroutput>.xq</computeroutput> the query language is considered to be <computeroutput>XQuery</computeroutput>, <computeroutput>JSONiq</computeroutput>, otherwise. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="267" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="267" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a030935acf64ff27d707da304605b26a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.getQueryAsString</definition>
+        <argsstring>(string query_path, string token)</argsstring>
+        <name>getQueryAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a query source code </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the source code of a query. The response content-type is set according to the query language. If the query does not <ulink url="http://www.w3.org/TR/xquery-30/#id-version-declaration">declare its own dialect</ulink>, the query file extension is used to infer the language of the query. If the query file extension is <computeroutput>.xq</computeroutput> the query language is considered to be <computeroutput>XQuery</computeroutput>, <computeroutput>JSONiq</computeroutput>, otherwise. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="309" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="309" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a87395bd13b07e8e06126a83bafa879e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._queriesApi.createQuery</definition>
+        <argsstring>(string query_path, string token, string body)</argsstring>
+        <name>createQuery</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method creates a new query resource.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source code of the query</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="345" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="345" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a666dfa7a388087a7aa4e7f2c48449e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.createQueryAsString</definition>
+        <argsstring>(string query_path, string token, string body)</argsstring>
+        <name>createQueryAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method creates a new query resource.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The source code of the query</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="388" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="388" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a06312ea06e71eb4220352bfd3e9075e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._queriesApi.saveQuery</definition>
+        <argsstring>(string query_path, string token, string body)</argsstring>
+        <name>saveQuery</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Creates or updates a query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method updates the source code of an existing query.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query source code</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="424" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="424" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab0620e7c1a5c9a176d46bd1eaeee7df9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.saveQueryAsString</definition>
+        <argsstring>(string query_path, string token, string body)</argsstring>
+        <name>saveQueryAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Creates or updates a query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method updates the source code of an existing query.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query source code</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="467" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="467" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ad1093fea05ace2793fa7b30fa4105714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._queriesApi.removeQuery</definition>
+        <argsstring>(string query_path, string token)</argsstring>
+        <name>removeQuery</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes a query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes a query.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="502" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="502" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aab508b95865f2a674936561effc45ac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.removeQueryAsString</definition>
+        <argsstring>(string query_path, string token)</argsstring>
+        <name>removeQueryAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes a query </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes a query.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="544" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="544" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a16318c734478f0c3318731f9e2c00e5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan" kindref="compound">IteratorPlan</ref></type>
+        <definition>IteratorPlan _28.io.Project.Api._queriesApi.getQueryPlan</definition>
+        <argsstring>(string query_path, string token)</argsstring>
+        <name>getQueryPlan</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a query execution plan </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the execution plan of a query.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="579" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="579" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4cd5a60f27b797e21704feeed9f32046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._queriesApi.getQueryPlanAsString</definition>
+        <argsstring>(string query_path, string token)</argsstring>
+        <name>getQueryPlanAsString</name>
+        <param>
+          <type>string</type>
+          <declname>query_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a query execution plan </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the execution plan of a query.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The query path. It starts with "public" or "private" and contains slashes.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="621" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="621" bodyend="648"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -172,12 +1049,25 @@
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aabe1524f66c3408931a78fa3264c1ae1" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>apiInvoker</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a2a531ab483ec75595a726ffc1773a3b8" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>basePath</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a87395bd13b07e8e06126a83bafa879e0" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>createQuery</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a666dfa7a388087a7aa4e7f2c48449e17" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>createQueryAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1acda67ff00bcb5581ea8fc85bef3def0e" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>executeQuery</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab071843d2a9a1954a52ff93b0c207bbc" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>executeQueryAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7a3d58c6ba93d6a18f1b97df953cccd5" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>executeSimpleQuery</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a953d04be5141cd6523b812ae4ceb06eb" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>executeSimpleQueryAsString</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7c3f25fa79e922553a5c8c2b5433fb7f" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>getBasePath</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7f89565887b10efff7fff3da9279adee" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>getInvoker</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1afdecaf52eea03198221fa8619198cea2" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>getQuery</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a030935acf64ff27d707da304605b26a6" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>getQueryAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a16318c734478f0c3318731f9e2c00e5c" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>getQueryPlan</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4cd5a60f27b797e21704feeed9f32046" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>getQueryPlanAsString</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aa2ab3d73942345045922214615388308" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>listQueries</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4146ba5e15c82fb7d4d571a8c2788604" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>listQueriesAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ad1093fea05ace2793fa7b30fa4105714" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>removeQuery</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aab508b95865f2a674936561effc45ac5" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>removeQueryAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a06312ea06e71eb4220352bfd3e9075e9" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>saveQuery</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab0620e7c1a5c9a176d46bd1eaeee7df9" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>saveQueryAsString</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a6ab046f78d32ef35c5a45548cd9b6d00" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>setBasePath</name></member>
-      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a902eb88495cf8f1aa4b18990c513b944" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>specified</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
