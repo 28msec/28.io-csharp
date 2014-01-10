@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['removecollection',['removeCollection',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#ace65dcd0b924211ee0ef76caada2d9f7',1,'_28::io::Project::Api::_datasourcesApi']]],
-  ['removecollectionasstring',['removeCollectionAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a31858ad5d884aa8991097bfcf3d3069e',1,'_28::io::Project::Api::_datasourcesApi']]],
-  ['removedatasource',['removeDatasource',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#abfed0f8b553d54c621571f05fe2e1cdb',1,'_28::io::Project::Api::_datasourcesApi']]],
-  ['removedatasourceasstring',['removeDatasourceAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a958f97a6fa36245e138cb6011b87974b',1,'_28::io::Project::Api::_datasourcesApi']]],
-  ['removeitem',['removeItem',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a2e2fc85a5ead7d0e3bf810ec8d2c9158',1,'_28::io::Project::Api::_datasourcesApi']]],
-  ['removeitemasstring',['removeItemAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#acfedb308bc84151cd99591eb3e2309b9',1,'_28::io::Project::Api::_datasourcesApi']]]
+  ['listcategorydatasources',['listCategoryDatasources',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#afbeeca0feff0c185040ed202a48a36d6',1,'_28::io::Project::Api::_datasourcesApi']]],
+  ['listcategorydatasourcesasstring',['listCategoryDatasourcesAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#ae878ac5fcfe66d423e41920ea6ecffe2',1,'_28::io::Project::Api::_datasourcesApi']]],
+  ['listcollection',['listCollection',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a0ff2837a3f1e2dbad698b8d8bec96a08',1,'_28::io::Project::Api::_datasourcesApi']]],
+  ['listcollectionasstring',['listCollectionAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#abb1072ea297976388efd17933af465ae',1,'_28::io::Project::Api::_datasourcesApi']]],
+  ['listdatasources',['listDatasources',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a0a8b36282e82bf769ff20bb788a8d7c6',1,'_28::io::Project::Api::_datasourcesApi']]],
+  ['listdatasourcesasstring',['listDatasourcesAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi.html#a4fdfd3f1aafc8fe10f1544cd2f24465e',1,'_28::io::Project::Api::_datasourcesApi']]],
+  ['listqueries',['listQueries',['../class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi.html#aa2ab3d73942345045922214615388308',1,'_28::io::Project::Api::_queriesApi']]],
+  ['listqueriesasstring',['listQueriesAsString',['../class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi.html#a4146ba5e15c82fb7d4d571a8c2788604',1,'_28::io::Project::Api::_queriesApi']]]
 ];

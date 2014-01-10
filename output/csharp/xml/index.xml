@@ -42,12 +42,25 @@
   <compound refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi" kind="class"><name>_28::io::Project::Api::_queriesApi</name>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a2a531ab483ec75595a726ffc1773a3b8" kind="variable"><name>basePath</name></member>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aabe1524f66c3408931a78fa3264c1ae1" kind="variable"><name>apiInvoker</name></member>
-    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a902eb88495cf8f1aa4b18990c513b944" kind="variable"><name>specified</name></member>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7f89565887b10efff7fff3da9279adee" kind="function"><name>getInvoker</name></member>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a6ab046f78d32ef35c5a45548cd9b6d00" kind="function"><name>setBasePath</name></member>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7c3f25fa79e922553a5c8c2b5433fb7f" kind="function"><name>getBasePath</name></member>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aa2ab3d73942345045922214615388308" kind="function"><name>listQueries</name></member>
     <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4146ba5e15c82fb7d4d571a8c2788604" kind="function"><name>listQueriesAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7a3d58c6ba93d6a18f1b97df953cccd5" kind="function"><name>executeSimpleQuery</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a953d04be5141cd6523b812ae4ceb06eb" kind="function"><name>executeSimpleQueryAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1acda67ff00bcb5581ea8fc85bef3def0e" kind="function"><name>executeQuery</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab071843d2a9a1954a52ff93b0c207bbc" kind="function"><name>executeQueryAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1afdecaf52eea03198221fa8619198cea2" kind="function"><name>getQuery</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a030935acf64ff27d707da304605b26a6" kind="function"><name>getQueryAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a87395bd13b07e8e06126a83bafa879e0" kind="function"><name>createQuery</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a666dfa7a388087a7aa4e7f2c48449e17" kind="function"><name>createQueryAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a06312ea06e71eb4220352bfd3e9075e9" kind="function"><name>saveQuery</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab0620e7c1a5c9a176d46bd1eaeee7df9" kind="function"><name>saveQueryAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ad1093fea05ace2793fa7b30fa4105714" kind="function"><name>removeQuery</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aab508b95865f2a674936561effc45ac5" kind="function"><name>removeQueryAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a16318c734478f0c3318731f9e2c00e5c" kind="function"><name>getQueryPlan</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4cd5a60f27b797e21704feeed9f32046" kind="function"><name>getQueryPlanAsString</name></member>
   </compound>
   <compound refid="class__28_1_1io_1_1Project_1_1ApiException" kind="class"><name>_28::io::Project::ApiException</name>
     <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a059051236fcb03fc1ce8544b53cf6915" kind="variable"><name>errorCode</name></member>
