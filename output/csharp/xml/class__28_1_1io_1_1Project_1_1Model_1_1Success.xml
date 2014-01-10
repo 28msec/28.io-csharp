@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Model_1_1Success" kind="class" prot="public">
+    <compoundname>_28::io::Project::Model::Success</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Success_1a414798ec664fa847d46263d02cc39668" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool _28.io.Project.Model.Success.success</definition>
+        <argsstring></argsstring>
+        <name>success</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Success.cs" line="12" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Success.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Success.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Success.cs" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Success_1a414798ec664fa847d46263d02cc39668" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Success</scope><name>success</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

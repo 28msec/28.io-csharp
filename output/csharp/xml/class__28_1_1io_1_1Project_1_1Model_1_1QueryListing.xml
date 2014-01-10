@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing" kind="class" prot="public">
+    <compoundname>_28::io::Project::Model::QueryListing</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing_1ac1c0e593d6c954dd87aae53315ea4a01" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Query" kindref="compound">Query</ref> &gt;</type>
+        <definition>List&lt;Query&gt; _28.io.Project.Model.QueryListing._public</definition>
+        <argsstring></argsstring>
+        <name>_public</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryListing.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryListing.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing_1abc8894ecf87888fcd0def85d8168bf56" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Query" kindref="compound">Query</ref> &gt;</type>
+        <definition>List&lt;Query&gt; _28.io.Project.Model.QueryListing._private</definition>
+        <argsstring></argsstring>
+        <name>_private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryListing.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryListing.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryListing.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryListing.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing_1abc8894ecf87888fcd0def85d8168bf56" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::QueryListing</scope><name>_private</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing_1ac1c0e593d6c954dd87aae53315ea4a01" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::QueryListing</scope><name>_public</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

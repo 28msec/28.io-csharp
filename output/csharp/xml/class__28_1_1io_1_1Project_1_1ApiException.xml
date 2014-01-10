@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1ApiException" kind="class" prot="public">
+    <compoundname>_28::io::Project::ApiException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1ApiException_1a059051236fcb03fc1ce8544b53cf6915" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _28.io.Project.ApiException.errorCode</definition>
+        <argsstring></argsstring>
+        <name>errorCode</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" line="6" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1ApiException_1ab0b39b068e8792a3f090c9bf74dba231" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int _28.io.Project.ApiException.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiException_1a8596b46aa8c43e1bee7066000dd4f487" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_28.io.Project.ApiException.ApiException</definition>
+        <argsstring>()</argsstring>
+        <name>ApiException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" line="8" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiException_1a7c2df59506167970e882192813f22d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_28.io.Project.ApiException.ApiException</definition>
+        <argsstring>(int errorCode, string message)</argsstring>
+        <name>ApiException</name>
+        <param>
+          <type>int</type>
+          <declname>errorCode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>_28.io.Project.ApiException</label>
+        <link refid="class__28_1_1io_1_1Project_1_1ApiException"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>_28.io.Project.ApiException</label>
+        <link refid="class__28_1_1io_1_1Project_1_1ApiException"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" line="4" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiException.cs" bodystart="4" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a8596b46aa8c43e1bee7066000dd4f487" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiException</scope><name>ApiException</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a7c2df59506167970e882192813f22d2e" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiException</scope><name>ApiException</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a059051236fcb03fc1ce8544b53cf6915" prot="private" virt="non-virtual"><scope>_28::io::Project::ApiException</scope><name>errorCode</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiException_1ab0b39b068e8792a3f090c9bf74dba231" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiException</scope><name>ErrorCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

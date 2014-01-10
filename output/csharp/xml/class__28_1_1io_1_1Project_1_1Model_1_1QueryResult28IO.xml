@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" kind="class" prot="public">
+    <compoundname>_28::io::Project::Model::QueryResult28IO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a8eda8881e9fc512ced2fc3e61f6c4abe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.QueryResult28IO.defaultContentType</definition>
+        <argsstring></argsstring>
+        <name>defaultContentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a149c4f6f2770ffe8148f69de8fb734d6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO" kindref="compound">Item28IO</ref> &gt;</type>
+        <definition>List&lt;Item28IO&gt; _28.io.Project.Model.QueryResult28IO.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a7539ab8f86652a643f7a319950461a8e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int _28.io.Project.Model.QueryResult28IO.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/QueryResult28IO.cs" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a7539ab8f86652a643f7a319950461a8e" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::QueryResult28IO</scope><name>count</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a8eda8881e9fc512ced2fc3e61f6c4abe" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::QueryResult28IO</scope><name>defaultContentType</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a149c4f6f2770ffe8148f69de8fb734d6" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::QueryResult28IO</scope><name>items</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

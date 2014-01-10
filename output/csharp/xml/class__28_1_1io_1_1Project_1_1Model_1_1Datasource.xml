@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Model_1_1Datasource" kind="class" prot="public">
+    <compoundname>_28::io::Project::Model::Datasource</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a3637c0a0d646396059e29ea1bc514781" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.Datasource.category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a3d7d32e91b8bf05f9a62bd13ea356e0f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.Datasource.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a19d51634e88df8a059c7e8acd8b555c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool _28.io.Project.Model.Datasource._default</definition>
+        <argsstring></argsstring>
+        <name>_default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Datasource.cs" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a19d51634e88df8a059c7e8acd8b555c9" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Datasource</scope><name>_default</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a3637c0a0d646396059e29ea1bc514781" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Datasource</scope><name>category</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a3d7d32e91b8bf05f9a62bd13ea356e0f" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Datasource</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

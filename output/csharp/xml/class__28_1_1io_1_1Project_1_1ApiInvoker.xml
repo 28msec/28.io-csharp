@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1ApiInvoker" kind="class" prot="public">
+    <compoundname>_28::io::Project::ApiInvoker</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1a5be3572a0d2b5358cea7d8dda6639aff" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
+        <definition>readonly ApiInvoker _28.io.Project.ApiInvoker._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= new <ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="11" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1aeed76e249a74eb64dce09eee22475aa1" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; String, String &gt;</type>
+        <definition>Dictionary&lt;String, String&gt; _28.io.Project.ApiInvoker.defaultHeaderMap</definition>
+        <argsstring></argsstring>
+        <name>defaultHeaderMap</name>
+        <initializer>= new Dictionary&lt;String, String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="12" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1a1d377335c1bb1148c47c2229090f7b81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
+        <definition>static ApiInvoker _28.io.Project.ApiInvoker.GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="14" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1adff586d1f0ea6e73fdd0559ab680bb3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object _28.io.Project.ApiInvoker.deserialize</definition>
+        <argsstring>(string json, Type type)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="26" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1a43de389e666775421d094d191fbddc65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string _28.io.Project.ApiInvoker.serialize</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="37" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1aadd4b97bda294e9a7851354f05b47325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void _28.io.Project.ApiInvoker.addDefaultHeader</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>addDefaultHeader</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="18" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1a805aa45669a3775c9691d84b234c9c27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.ApiInvoker.escapeString</definition>
+        <argsstring>(string str)</argsstring>
+        <name>escapeString</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="22" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1ApiInvoker_1a3480f0dbf1a0c9389feeada6bf828493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.ApiInvoker.invokeAPI</definition>
+        <argsstring>(string host, string path, string method, Dictionary&lt; String, String &gt; queryParams, object body, Dictionary&lt; String, String &gt; headerParams)</argsstring>
+        <name>invokeAPI</name>
+        <param>
+          <type>string</type>
+          <declname>host</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; String, String &gt;</type>
+          <declname>queryParams</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; String, String &gt;</type>
+          <declname>headerParams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="47" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="47" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="10" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a5be3572a0d2b5358cea7d8dda6639aff" prot="private" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>_instance</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1aadd4b97bda294e9a7851354f05b47325" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>addDefaultHeader</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1aeed76e249a74eb64dce09eee22475aa1" prot="private" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>defaultHeaderMap</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1adff586d1f0ea6e73fdd0559ab680bb3e" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>deserialize</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a805aa45669a3775c9691d84b234c9c27" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>escapeString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a1d377335c1bb1148c47c2229090f7b81" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>GetInstance</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a3480f0dbf1a0c9389feeada6bf828493" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>invokeAPI</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a43de389e666775421d094d191fbddc65" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>serialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
