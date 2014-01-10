@@ -5,7 +5,7 @@ object CSharpCodegen_project extends BasicCSharpGenerator {
   def main(args: Array[String]) = generateClient(args)
 
   // where to write generated code
-  override def destinationDir = "_28.io/output/csharp"
+  override def destinationDir = "_28.io-csharp/output/csharp"
 
   // package for api invoker, error files
   override def invokerPackage = Some("_28.io.Project")
@@ -17,21 +17,11 @@ object CSharpCodegen_project extends BasicCSharpGenerator {
   override def apiPackage = Some("_28.io.Project.Api")
 
   // location of templates
-  override def templateDir = "_28.io/templates/csharp"
+  override def templateDir = "_28.io-csharp/templates/csharp"
 
-  override def typeMapping = Map(
-    "array" -> "List",
+  override def typeMapping = super.typeMapping ++ Map(
     "Array" -> "List",
-    "boolean" -> "bool",
-    "string" -> "string",
-    "int" -> "int",
     "integer" -> "int",
-    "float" -> "float",
-    "long" -> "long",
-    "double" -> "double",
-    "object" -> "object",
-    "Date" -> "DateTime",
-    "date" -> "DateTime",
     "date-time" -> "DateTime")
   
    override def escapeReservedWord(word: String) = {

@@ -15,7 +15,7 @@ Fast bootstrap
 -   create a token using the authentication api
 
 ```
-var apiPortal = new _28.io.Project.Api.ApiApi();
+var apiPortal = new _28.io.Project.Api.AuthApi();
 dynamic login = Newtonsoft.Json.JsonConvert.DeserializeObject(apiPortal.authenticateAsString("client_credentials", HttpUtility.UrlEncode(_EMAIL), HttpUtility.UrlEncode(_PASSWORD), ""));
 string token = login.project_tokens["project_" + _PROJECT];
 ```
@@ -82,16 +82,16 @@ Execute the build script.
 For Unix:
 
 ```
-./_28.io/csharp_project.sh
+./_28.io-csharp/csharp_project.sh
 ```
 
 or for Windows
 
 ```
-_28.io\csharp_project.bat
+_28.io-csharp\csharp_project.bat
 ```
 
-The new code (model, apis and invoker) and the documentation in html format are generated in _28.io/output/csharp.
+The new code (model, apis and invoker) and the documentation in html format are generated in _28.io-csharp/output/csharp.
 
 More Information
 ----------------------------

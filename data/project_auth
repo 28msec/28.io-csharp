@@ -2,22 +2,23 @@
     "apiVersion": "1.0",
     "swaggerVersion": "1.2",
     "basePath": "http://portal.28.io",
-    "resourcePath": "/api/session",
+    "resourcePath": "/auth",
     "produces": ["application/json"],
+    "description": "<p>This OAuth2 compliant API can be used to authorize requests. The endpoint for these methods is <code>http://portal.28.io/api/auth</code>.</p>",
     "apis": [
         {
-            "path": "/api/session",
+            "path": "/auth",
             "operations": [
                 {
                     "method": "POST",
-                    "summary": "Creates or refreshes a session",
-                    "notes": "This OAuth2 compliant endpoint can be used both to start a new session or to refresh the current session. To start a new session the 'grant_type' parameter must be set to 'client_credentials' and the 'email' and 'password' parameters must be specified. To refresh an already started session the 'grant_type' parameter must be set to 'refresh_token' and the 'refresh_token' parameter must be specified. If a session is successfully started or refreshed a new API and a new refresh tokens are returned.",
+                    "summary": "Creates or refreshes authorization tokens",
+                    "notes": "<p>This <a href=\"http://oauth.net/2/\" target=\"_blank\">OAuth2</a> compliant endpoint can be used both create new authorization tokens or to refresh an existing ones. There are three types of authorization tokens provided by this endpoint.</p><dl class=\"dl-horizontal\"><dt>Access token</dt><dd>The access token is used to authorize requests on your 28.io account. These methods are currently unstable and are not documented yet.</dd><dt>Refresh Token</dt><dd>This token is used to renew the validity of your current authorization tokens.</dd><dt>Project token</dt><dd>This token is used to authorize requests to a 28.io project. For instance, the project token named <code>myproject</code> can be used to authorize any request to the <code>http://myproject.28.io</code> endpoint.</dd></dl><p>Any successful request to this endpoint will return the access, refresh, and project tokens.</p><p>To create new authorization tokens, the <code>grant_type</code> parameter must be set to <code>client_credentials</code> and the <code>email</code>. The <code>password</code> parameters must be specified as well.</p><p>To refresh the validity of your authorized tokens, the <code>grant_type</code> parameter must be set to <code>refresh_token</code> and the <code>refresh_token</code> parameter must be specified. In this scenario, new authorization tokens will be granted.</p><p>The format of the expiration date of a token is <a href=\"http://www.w3.org/TR/xmlschema-2/#isoformats\" target=\"_blank\">ISO 8601 compliant</a>.</p>",
                     "type": "Authentication",
                     "nickname": "authenticate",
                     "parameters": [
                         {
                             "name": "grant_type",
-                            "description": "The grant_type. 'client_credentials' to start a new session, 'refresh_token' to refresh a session",
+                            "description": "Authorization grant type. Use <code>client_credentials</code> to create a token or <code>refresh_token</code> to refresh a token",
                             "required": true,
                             "type": "string",
                             "enum": ["client_credentials", "refresh_token"],
@@ -25,24 +26,31 @@
                         },
                         {
                             "name": "email",
-                            "description": "The account email. Mandatory for login requests.",
+                            "description": "The account email. Mandatory if <code>grant_type=client_credentials</code>.",
                             "required": false,
                             "type": "string",
                             "paramType": "query"
                         },
                         {
                             "name": "password",
-                            "description": "The account password. Mandatory for login requests.",
+                            "description": "The account password. Mandatory if <code>grant_type=client_credentials</code>.",
                             "required": false,
                             "type": "string",
                             "paramType": "query"
                         },
                         {
                             "name": "refresh_token",
-                            "description": "The session refresh_token obtained the last time this method has been called. Mandatory for refresh requests.",
+                            "description": "The <code>refresh_token</code> obtained in the last successful request to this endpoint.  Mandatory if <code>grant_type=refresh_token</code>.",
                             "required": false,
                             "type": "string",
                             "paramType": "query"
+                        }
+                    ],
+                    "successMessages": [
+                        {
+                            "code": 200,
+                            "message": "New authorization tokens have been granted.",
+                            "responseModel": "Authentication" 
                         }
                     ],
                     "responseMessages": [
@@ -70,6 +78,21 @@
                             "code": 500,
                             "message": "An internal error occurred during the processing of the request.",
                             "responseModel": "Error"
+                        }
+                    ],
+                    "examples": [
+                        {
+                            "title": "Granting a new authorization token",
+                            "description": "The following request creates a new authorization token.",
+                            "request": "curl -X POST http://portal.28.io/auth?email=my@email.com&password=mypassword&grant_type=client_credentials",
+                            "response": "< 200 OK\n{\n  \"token_type\" : \"bearer\",\n   \"expiration_date\" : \"2013-11-06T01:54:29.83945Z\",\n   \"access_token\" : \"dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==\",\n   \"refresh_token\" : \"dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==\",\n   \"project_tokens\" : {\n    \"project_zurich\" : \"QllXcXM3OHV4N2IweitabGZKeExkZVBreGZJPToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==\"  },\n   \"accountMetadata\" : {\n    \"id\" : \"1\",\n     \"email\" : \"my@email.com\",\n     \"firstname\" : \"John\",\n     \"lastname\" : \"Smith\",\n     \"company\" : \"Acme\",\n     \"createdAt\" : \"2013-10-31T15:26:12.702226Z\",\n     \"type\" : \"free\",\n     \"confirmedAt\" : \"2013-10-31T15:26:31.081456Z\"\n  },\n   \"projectsMetadata\" : [{\n    \"name\" : \"zurich\",\n     \"created\" : \"2013-10-31T15:59:55.117077Z\",\n     \"package\" : \"free\",\n     \"status\" : \"active\",\n     \"avatarKey\" : 8,\n     \"version\" : \"1.0\",\n     \"sausaVesion\" : \"2.8.0\",\n     \"lastUpdated\" : \"2013-10-31T15:59:55.117077Z\",\n     \"lastModified\" : \"2013-10-31T15:59:55.117077Z\",\n     \"databaseType\" : \"28msec\"\n  }]\n}"
+                        }
+                        ,
+                        {
+                            "title": "Refreshing an authorization token",
+                            "description": "The following request refreshes the validity of an authorization token.",
+                            "request": "curl -X POST http://portal.28.io/auth?refresh_token=dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==&grant_type=refresh_token",
+                            "response": "< 200 OK\n{\n  \"token_type\" : \"bearer\",\n   \"expiration_date\" : \"2013-11-06T02:17:50.769451Z\",\n   \"access_token\" : \"ejRISUlaY2FFNUs2dGZOQ0FrTnRRY2hRVkNnPToyMDEzLTExLTA2VDAyOjE3OjUwLjc2OTQ1MVo=\",\n   \"refresh_token\" : \"ejRISUlaY2FFNUs2dGZOQ0FrTnRRY2hRVkNnPToyMDEzLTExLTA2VDAyOjE3OjUwLjc2OTQ1MVo=\",\n   \"project_tokens\" : {\n    \"project_zurich\" : \"aUhxKzRJRU1VbHhwWS9OWGNsS2lDdXpKVXNrPToyMDEzLTExLTA2VDAyOjE3OjUwLjc2OTQ1MVo=\"\n  }\n}"
                         }
                     ]
                 }
@@ -159,3 +182,4 @@
         }
     }
 }
+

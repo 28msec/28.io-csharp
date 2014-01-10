@@ -107,7 +107,7 @@ using _28.io.Project.Model;
       /// <param name="format">The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</param>
       /// <param name="token">A project token.</param>
       /// <returns></returns>
-      public QueryResult28IO executeNonSideEffectingQuery (string query_path, string format, string token) {
+      public QueryResult28IO executeSimpleQuery (string query_path, string format, string token) {
         // create path and map variables
         var path = "/_queries/{query-path}{format}".Replace("{" + "query-path" + "}", apiInvoker.escapeString(query_path.ToString())).Replace("{" + "format" + "}", apiInvoker.escapeString(format.ToString()));
 
@@ -150,7 +150,7 @@ using _28.io.Project.Model;
       /// <param name="format">The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</param>
       /// <param name="token">A project token.</param>
       /// <returns></returns>
-      public string executeNonSideEffectingQueryAsString (string query_path, string format, string token) {
+      public string executeSimpleQueryAsString (string query_path, string format, string token) {
         // create path and map variables
         var path = "/_queries/{query-path}{format}".Replace("{" + "query-path" + "}", apiInvoker.escapeString(query_path.ToString())).Replace("{" + "format" + "}", apiInvoker.escapeString(format.ToString()));
 
@@ -186,7 +186,7 @@ using _28.io.Project.Model;
       /// <param name="format">The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</param>
       /// <param name="token">A project token.</param>
       /// <returns></returns>
-      public QueryResult28IO executeSideEffectingQuery (string query_path, string format, string token) {
+      public QueryResult28IO executeQuery (string query_path, string format, string token) {
         // create path and map variables
         var path = "/_queries/{query-path}{format}".Replace("{" + "query-path" + "}", apiInvoker.escapeString(query_path.ToString())).Replace("{" + "format" + "}", apiInvoker.escapeString(format.ToString()));
 
@@ -229,7 +229,7 @@ using _28.io.Project.Model;
       /// <param name="format">The serialization method to use for the results of the executed query. When choosing a serialization method, this parameter has a lower priority than the &lt;code&gt;Accept&lt;/code&gt; header.</param>
       /// <param name="token">A project token.</param>
       /// <returns></returns>
-      public string executeSideEffectingQueryAsString (string query_path, string format, string token) {
+      public string executeQueryAsString (string query_path, string format, string token) {
         // create path and map variables
         var path = "/_queries/{query-path}{format}".Replace("{" + "query-path" + "}", apiInvoker.escapeString(query_path.ToString())).Replace("{" + "format" + "}", apiInvoker.escapeString(format.ToString()));
 
