@@ -70,9 +70,9 @@ sbt assembly
 
 ###Clone 28.io C# language binding###
 
-Clone this project in a subdirectory called _28.io of swagger-codegen.
+Clone this project in a subdirectory called _28.io-csharp of swagger-codegen.
 ```
-git clone https://github.com/28msec/28.io-csharp.git _28.io
+git clone https://github.com/28msec/28.io-csharp.git _28.io-csharp
 ```
 
 ###Build 28.io C# language binding###
