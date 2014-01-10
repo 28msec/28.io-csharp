@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.5">
+  <compound refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi" kind="class"><name>_28::io::Project::Api::_datasourcesApi</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1afbdd549dacd73002a4c1dd21468c7980" kind="variable"><name>basePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ad56ab0e04b2cb1d598313a721e940cde" kind="variable"><name>apiInvoker</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a418efbcb863bc3c850f69db3482e43a7" kind="function"><name>getInvoker</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1affac54e3796cf349b0569a5d0cb99fe5" kind="function"><name>setBasePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a7d45d87fc1f473130cec6a76a1f758da" kind="function"><name>getBasePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a0a8b36282e82bf769ff20bb788a8d7c6" kind="function"><name>listDatasources</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a4fdfd3f1aafc8fe10f1544cd2f24465e" kind="function"><name>listDatasourcesAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1afbeeca0feff0c185040ed202a48a36d6" kind="function"><name>listCategoryDatasources</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ae878ac5fcfe66d423e41920ea6ecffe2" kind="function"><name>listCategoryDatasourcesAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a99036cd796fda7072e83a1599b205179" kind="function"><name>createDatasource</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a978929b76a3ccd8d296d5df924b85573" kind="function"><name>createDatasourceAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a3235b441a6dad8393302553ed745eed4" kind="function"><name>getDatasource</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ab32dfb23f87630e72388355351bcfa89" kind="function"><name>getDatasourceAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ada588e7a0c20297065c47ecff3ffe9a5" kind="function"><name>updateDatasource</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aa192e15592156a52e605c31d83a06f18" kind="function"><name>updateDatasourceAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abfed0f8b553d54c621571f05fe2e1cdb" kind="function"><name>removeDatasource</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a958f97a6fa36245e138cb6011b87974b" kind="function"><name>removeDatasourceAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a2f35db5bb5e24b1d5ccfae2575e74f68" kind="function"><name>getDatasourceContents</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aecc45e20465e735bcb5472c89da62b93" kind="function"><name>getDatasourceContentsAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a5e4cd8bbcd895e29093c1a889d2dba45" kind="function"><name>createCollection</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a57aa59b6405746a9f323e6757d754d0b" kind="function"><name>createCollectionAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ab06ecd195e48fc618c5e05a144ef6488" kind="function"><name>getCollectionMetadata</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a3a230e59eace82a2ba5f49ab39f1ce02" kind="function"><name>getCollectionMetadataAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ace65dcd0b924211ee0ef76caada2d9f7" kind="function"><name>removeCollection</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a31858ad5d884aa8991097bfcf3d3069e" kind="function"><name>removeCollectionAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a0ff2837a3f1e2dbad698b8d8bec96a08" kind="function"><name>listCollection</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abb1072ea297976388efd17933af465ae" kind="function"><name>listCollectionAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a90b40fbebbdbef103d132aa2bdd3b9c9" kind="function"><name>insertInCollection</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ac2c5d002f04a3c5d36123063aa637726" kind="function"><name>insertInCollectionAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1adda890019d62a64fbbca5a307547e3fc" kind="function"><name>truncateCollection</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a7ef0ae59cbd4396d0f46caab6f91c555" kind="function"><name>truncateCollectionAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1adfe17b2907007059fcda4cada91d2559" kind="function"><name>getItem</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ae3fddc477da1a18c6e5d1a79384f1d98" kind="function"><name>getItemAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abb1cd4d44b2356c18c9fa4ee36f8727f" kind="function"><name>updateItem</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aa9b2ff3c118ae744593cc3000b77644a" kind="function"><name>updateItemAsString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a2e2fc85a5ead7d0e3bf810ec8d2c9158" kind="function"><name>removeItem</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1acfedb308bc84151cd99591eb3e2309b9" kind="function"><name>removeItemAsString</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi" kind="class"><name>_28::io::Project::Api::_queriesApi</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a2a531ab483ec75595a726ffc1773a3b8" kind="variable"><name>basePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aabe1524f66c3408931a78fa3264c1ae1" kind="variable"><name>apiInvoker</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a902eb88495cf8f1aa4b18990c513b944" kind="variable"><name>specified</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7f89565887b10efff7fff3da9279adee" kind="function"><name>getInvoker</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a6ab046f78d32ef35c5a45548cd9b6d00" kind="function"><name>setBasePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7c3f25fa79e922553a5c8c2b5433fb7f" kind="function"><name>getBasePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aa2ab3d73942345045922214615388308" kind="function"><name>listQueries</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4146ba5e15c82fb7d4d571a8c2788604" kind="function"><name>listQueriesAsString</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1ApiException" kind="class"><name>_28::io::Project::ApiException</name>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a059051236fcb03fc1ce8544b53cf6915" kind="variable"><name>errorCode</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiException_1ab0b39b068e8792a3f090c9bf74dba231" kind="property"><name>ErrorCode</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a8596b46aa8c43e1bee7066000dd4f487" kind="function"><name>ApiException</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiException_1a7c2df59506167970e882192813f22d2e" kind="function"><name>ApiException</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kind="class"><name>_28::io::Project::ApiInvoker</name>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a5be3572a0d2b5358cea7d8dda6639aff" kind="variable"><name>_instance</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1aeed76e249a74eb64dce09eee22475aa1" kind="variable"><name>defaultHeaderMap</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a1d377335c1bb1148c47c2229090f7b81" kind="function"><name>GetInstance</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1adff586d1f0ea6e73fdd0559ab680bb3e" kind="function"><name>deserialize</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a43de389e666775421d094d191fbddc65" kind="function"><name>serialize</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1aadd4b97bda294e9a7851354f05b47325" kind="function"><name>addDefaultHeader</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a805aa45669a3775c9691d84b234c9c27" kind="function"><name>escapeString</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a3480f0dbf1a0c9389feeada6bf828493" kind="function"><name>invokeAPI</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi" kind="class"><name>_28::io::Project::Api::AuthApi</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ad9fdc079116e1af576ed30a7ad2de13b" kind="variable"><name>basePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a982b4e5491672a827bfdf394c2d56920" kind="variable"><name>apiInvoker</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a1b4b242a4517ad22db2a1d8b3efd23cc" kind="function"><name>getInvoker</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a92921d7da7f66eb716131330cce773f2" kind="function"><name>setBasePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a648a117fbe27caa9cae5d72e2461bb00" kind="function"><name>getBasePath</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ace2311d9c4fb212895f330ecde216878" kind="function"><name>authenticate</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a6c858dbf732fb2d225a82badf06a1830" kind="function"><name>authenticateAsString</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication" kind="class"><name>_28::io::Project::Model::Authentication</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1a560e864d81692141bdc6cdeccbaeda98" kind="property"><name>token_type</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1a3dcc132e37480777b6c1c797d833b23b" kind="property"><name>expiration_date</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1ae2d36d1249cd445137b737d7766d0770" kind="property"><name>access_token</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1a04c1b5efb0777459e7f90e16459cf3d6" kind="property"><name>refresh_token</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1aef9fd83c17508588d426cd2f0985d851" kind="property"><name>project_tokens</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection" kind="class"><name>_28::io::Project::Model::Collection</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1a13bda93b5c273a65c28f8bcadb4775a8" kind="property"><name>name</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1a6e3f657cbfcc0c6d0517d6f7490a27ba" kind="property"><name>nameLoc</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1ab22d3272fea344dc481d51be1fec52e0" kind="property"><name>type</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1aceb8e520b26c8b51669e58e07e3b452b" kind="property"><name>countItems</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1a43c6fd816a4e0bd3d90c5662155632a1" kind="property"><name>countIndexes</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO" kind="class"><name>_28::io::Project::Model::CollectionList28IO</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1a5e5b82fea2e652639f138bdeb2a14c0d" kind="property"><name>first</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1a5a5cce1cf76aaa77b7f863b5fc5a0681" kind="property"><name>previous</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1abd3b4c7a0dfbc83288d2c6148f1acb48" kind="property"><name>href</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1a27daa4cdfcfcdea6b069d3eaf2a9baa2" kind="property"><name>next</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1a95df79c0cb561a6089b4c37d263ff9c3" kind="property"><name>last</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1af3fbf516a722e43220f1e2dc456eff9d" kind="property"><name>offset</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1a5a23a3ae3f8d4a42a303cf984af6c64b" kind="property"><name>limit</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1a99da3ef3aa6eb5ff5aa7fe6ae2d3f1a0" kind="property"><name>count</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO_1af2d7368276a213790086502ac11cc71f" kind="property"><name>items</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource" kind="class"><name>_28::io::Project::Model::Datasource</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a3637c0a0d646396059e29ea1bc514781" kind="property"><name>category</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a3d7d32e91b8bf05f9a62bd13ea356e0f" kind="property"><name>name</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource_1a19d51634e88df8a059c7e8acd8b555c9" kind="property"><name>_default</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO" kind="class"><name>_28::io::Project::Model::Item28IO</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1a3d518a7da8ead177d01c43032c18d892" kind="property"><name>contentType</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1aac198edf929cfedb3f2369e91f6c84dd" kind="property"><name>href</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1a7d3547ed224347e71aef6ef2409c32a0" kind="property"><name>content</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan" kind="class"><name>_28::io::Project::Model::IteratorPlan</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3a03209d166af923936039a64053cfcd" kind="property"><name>kind</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa08f7297c99f724c463d8d5b92d1dafe" kind="property"><name>iterators</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a7561e0db0c6487e03471d7be81942598" kind="property"><name>allow_atomics</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa02b0158c70f103f3e4fe8e6ed731eaf" kind="property"><name>ascending</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a8bdd4cfe7f47aa3e7a9aceed6bd6fa45" kind="property"><name>attr_cont</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a9b4d56c0c643075a38e29976e966e309" kind="property"><name>cached</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aed54e1dd68c7eeacf2d4bdcf34216e93" kind="property"><name>check_only</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a49a68a0a6e91d1f55bf5ec1df1e384b0" kind="property"><name>copyInputNodes</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a8873296ef915f585a925cb28165c9f6b" kind="property"><name>distinct</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3def24fac30ff5128520b44a67509916" kind="property"><name>doc_test_kind</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abf4ea8693b59720e471d28acb671e146" kind="property"><name>function</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a71f0f610ed3bef6bb97ac00a47047e6a" kind="property"><name>id</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aaa14e5aa5fdb23b503091e52e918a9ec" kind="property"><name>inputVar</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3f7dff4f63b98f0ed6aa351357c43d06" kind="property"><name>is_dynamic</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1af7e788b95cd447491c88572f6ee2b8c4" kind="property"><name>materialize</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a49a6877c2efa88e4b62a19d0fe7201fb" kind="property"><name>name</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ae93bfe55436aad38a23554e6adf37477" kind="property"><name>need_to_copy</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa05fca2da546d61c70c4e86a4240ec67" kind="property"><name>nill_allowed</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1af471f516f224f254bdfe500693b12c58" kind="property"><name>pos_referenced_by</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a7610202406733825f77ba9015eaa38c1" kind="property"><name>qname</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a08b0dcbeb7b396efdd20a5b737f98d55" kind="property"><name>quant</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa896b89e56e19cb504ce314bf63958f3" kind="property"><name>referenced_by</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abe1efb4f5650f452e79b52cf997891ac" kind="property"><name>skip</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a520bbe0bede686146e7f0df40f578a5a" kind="property"><name>target_position</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a9e2abf9a1b27fdc362a05851363d8913" kind="property"><name>targetPos</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1adb7a2864bc1b725338373f2db35466a3" kind="property"><name>test_kind</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a764f165134ae3625073b07dbdfbf1545" kind="property"><name>type</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ab13a7470196cff8b81785abe3bff56ef" kind="property"><name>value</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abef3f36d7f11472888b9f7f41be7f120" kind="property"><name>varid</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a794b9d0fe13243ec56a637d420d63e33" kind="property"><name>varkind</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ac069c54927799d4a8f0681730f924013" kind="property"><name>varname</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a6cf9c394f2ebfdb91a14d440c73ed7ba" kind="variable"><name>string</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ac4c7687c7372027a68dbd7b893005ae9" kind="variable"><name>set</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1ProjectTokens" kind="class"><name>_28::io::Project::Model::ProjectTokens</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1ProjectTokens_1adfdd06584feef1b6d5c02b37ce45840f" kind="property"><name>project__name_</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1Query" kind="class"><name>_28::io::Project::Model::Query</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Query_1a0d2c52c0d4c2cdc3f35d4fa9253990d1" kind="property"><name>href</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Query_1afa1e5047c06e32274ac1dc487a8c624f" kind="property"><name>lastModified</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing" kind="class"><name>_28::io::Project::Model::QueryListing</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing_1ac1c0e593d6c954dd87aae53315ea4a01" kind="property"><name>_public</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing_1abc8894ecf87888fcd0def85d8168bf56" kind="property"><name>_private</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" kind="class"><name>_28::io::Project::Model::QueryResult28IO</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a8eda8881e9fc512ced2fc3e61f6c4abe" kind="property"><name>defaultContentType</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a149c4f6f2770ffe8148f69de8fb734d6" kind="property"><name>items</name></member>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO_1a7539ab8f86652a643f7a319950461a8e" kind="property"><name>count</name></member>
+  </compound>
+  <compound refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kind="class"><name>_28::io::Project::Model::Success</name>
+    <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Success_1a414798ec664fa847d46263d02cc39668" kind="property"><name>success</name></member>
+  </compound>
+  <compound refid="namespace__28" kind="namespace"><name>_28</name>
+  </compound>
+  <compound refid="namespace__28_1_1io" kind="namespace"><name>_28::io</name>
+  </compound>
+  <compound refid="namespace__28_1_1io_1_1Project" kind="namespace"><name>_28::io::Project</name>
+  </compound>
+  <compound refid="namespace__28_1_1io_1_1Project_1_1Api" kind="namespace"><name>_28::io::Project::Api</name>
+  </compound>
+  <compound refid="namespace__28_1_1io_1_1Project_1_1Model" kind="namespace"><name>_28::io::Project::Model</name>
+  </compound>
+  <compound refid="namespaceNewtonsoft_1_1Json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespaceSystem" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Collections_1_1Generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1IO" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Runtime_1_1Serialization" kind="namespace"><name>System::Runtime::Serialization</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="__datasourcesApi_8cs" kind="file"><name>_datasourcesApi.cs</name>
+  </compound>
+  <compound refid="__queriesApi_8cs" kind="file"><name>_queriesApi.cs</name>
+  </compound>
+  <compound refid="AuthApi_8cs" kind="file"><name>AuthApi.cs</name>
+  </compound>
+  <compound refid="ApiException_8cs" kind="file"><name>ApiException.cs</name>
+  </compound>
+  <compound refid="ApiInvoker_8cs" kind="file"><name>ApiInvoker.cs</name>
+  </compound>
+  <compound refid="Authentication_8cs" kind="file"><name>Authentication.cs</name>
+  </compound>
+  <compound refid="Collection_8cs" kind="file"><name>Collection.cs</name>
+  </compound>
+  <compound refid="CollectionList28IO_8cs" kind="file"><name>CollectionList28IO.cs</name>
+  </compound>
+  <compound refid="Datasource_8cs" kind="file"><name>Datasource.cs</name>
+  </compound>
+  <compound refid="Item28IO_8cs" kind="file"><name>Item28IO.cs</name>
+  </compound>
+  <compound refid="IteratorPlan_8cs" kind="file"><name>IteratorPlan.cs</name>
+  </compound>
+  <compound refid="ProjectTokens_8cs" kind="file"><name>ProjectTokens.cs</name>
+  </compound>
+  <compound refid="Query_8cs" kind="file"><name>Query.cs</name>
+  </compound>
+  <compound refid="QueryListing_8cs" kind="file"><name>QueryListing.cs</name>
+  </compound>
+  <compound refid="QueryResult28IO_8cs" kind="file"><name>QueryResult28IO.cs</name>
+  </compound>
+  <compound refid="Success_8cs" kind="file"><name>Success.cs</name>
+  </compound>
+  <compound refid="dir_ba6d52b6b2549d761fb54aa51848e29d" kind="dir"><name>_28.io-csharp/output/csharp/_28</name>
+  </compound>
+  <compound refid="dir_9054f85e9bf792724d60856c22390b01" kind="dir"><name>_28.io-csharp</name>
+  </compound>
+  <compound refid="dir_802830a053ff77b778582b65a1c6ad44" kind="dir"><name>_28.io-csharp/output/csharp/_28/io/Project/Api</name>
+  </compound>
+  <compound refid="dir_e315c4f53474ede285c12336e481c9e1" kind="dir"><name>_28.io-csharp/output/csharp</name>
+  </compound>
+  <compound refid="dir_6ca28821286661fd20cdcdc965f2d82f" kind="dir"><name>_28.io-csharp/output/csharp/_28/io</name>
+  </compound>
+  <compound refid="dir_e1864760aeaee5dc39f26a6589fc175d" kind="dir"><name>_28.io-csharp/output/csharp/_28/io/Project/Model</name>
+  </compound>
+  <compound refid="dir_4ade9d52c3bebdf2c52a69e029961f04" kind="dir"><name>_28.io-csharp/output</name>
+  </compound>
+  <compound refid="dir_6661f6f96ff7d4282782467f2dbfb589" kind="dir"><name>_28.io-csharp/output/csharp/_28/io/Project</name>
+  </compound>
+</doxygenindex>

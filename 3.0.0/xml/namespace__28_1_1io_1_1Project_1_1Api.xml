@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespace__28_1_1io_1_1Project_1_1Api" kind="namespace">
+    <compoundname>_28::io::Project::Api</compoundname>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi" prot="public">_28::io::Project::Api::_datasourcesApi</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi" prot="public">_28::io::Project::Api::_queriesApi</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi" prot="public">_28::io::Project::Api::AuthApi</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

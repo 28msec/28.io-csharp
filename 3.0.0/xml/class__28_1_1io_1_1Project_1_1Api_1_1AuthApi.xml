@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi" kind="class" prot="public">
+    <compoundname>_28::io::Project::Api::AuthApi</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ad9fdc079116e1af576ed30a7ad2de13b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string _28.io.Project.Api.AuthApi.basePath</definition>
+        <argsstring></argsstring>
+        <name>basePath</name>
+        <initializer>= &quot;http://portal.28.io&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="8" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a982b4e5491672a827bfdf394c2d56920" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
+        <definition>readonly ApiInvoker _28.io.Project.Api.AuthApi.apiInvoker</definition>
+        <argsstring></argsstring>
+        <name>apiInvoker</name>
+        <initializer>= ApiInvoker.GetInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="9" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a1b4b242a4517ad22db2a1d8b3efd23cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
+        <definition>ApiInvoker _28.io.Project.Api.AuthApi.getInvoker</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="11" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a92921d7da7f66eb716131330cce773f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void _28.io.Project.Api.AuthApi.setBasePath</definition>
+        <argsstring>(string basePath)</argsstring>
+        <name>setBasePath</name>
+        <param>
+          <type>string</type>
+          <declname>basePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="16" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a648a117fbe27caa9cae5d72e2461bb00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String _28.io.Project.Api.AuthApi.getBasePath</definition>
+        <argsstring>()</argsstring>
+        <name>getBasePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ace2311d9c4fb212895f330ecde216878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication" kindref="compound">Authentication</ref></type>
+        <definition>Authentication _28.io.Project.Api.AuthApi.authenticate</definition>
+        <argsstring>(string grant_type, string email, string password, string refresh_token)</argsstring>
+        <name>authenticate</name>
+        <param>
+          <type>string</type>
+          <declname>grant_type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>refresh_token</declname>
+        </param>
+        <briefdescription>
+<para>Creates or refreshes authorization tokens </para>        </briefdescription>
+        <detaileddescription>
+<para>This <ulink url="http://oauth.net/2/">OAuth2</ulink> compliant endpoint can be used both create new authorization tokens or to refresh an existing ones. There are three types of authorization tokens provided by this endpoint.</para><para><variablelist>
+<varlistentry><term>Access token</term></varlistentry>
+<listitem><para>The access token is used to authorize requests on your 28.io account. These methods are currently unstable and are not documented yet.</para></listitem>
+<varlistentry><term>Refresh Token</term></varlistentry>
+<listitem><para>This token is used to renew the validity of your current authorization tokens.</para></listitem>
+<varlistentry><term><ref refid="namespace__28_1_1io_1_1Project" kindref="compound">Project</ref> token</term></varlistentry>
+<listitem><para>This token is used to authorize requests to a 28.io project. For instance, the project token named <computeroutput>myproject</computeroutput> can be used to authorize any request to the <computeroutput><ulink url="http://myproject.28.io">http://myproject.28.io</ulink></computeroutput> endpoint.</para></listitem>
+</variablelist>
+</para><para>Any successful request to this endpoint will return the access, refresh, and project tokens.</para><para>To create new authorization tokens, the <computeroutput>grant_type</computeroutput> parameter must be set to <computeroutput>client_credentials</computeroutput> and the <computeroutput>email</computeroutput>. The <computeroutput>password</computeroutput> parameters must be specified as well.</para><para>To refresh the validity of your authorized tokens, the <computeroutput>grant_type</computeroutput> parameter must be set to <computeroutput>refresh_token</computeroutput> and the <computeroutput>refresh_token</computeroutput> parameter must be specified. In this scenario, new authorization tokens will be granted.</para><para>The format of the expiration date of a token is <ulink url="http://www.w3.org/TR/xmlschema-2/#isoformats">ISO 8601 compliant</ulink>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grant_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Authorization grant type. Use &lt;code&gt;client_credentials&lt;/code&gt; to create a token or &lt;code&gt;refresh_token&lt;/code&gt; to refresh a token</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account email. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account password. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refresh_token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The &lt;code&gt;refresh_token&lt;/code&gt; obtained in the last successful request to this endpoint. Mandatory if &lt;code&gt;grant_type=refresh_token&lt;/code&gt;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="34" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="34" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a6c858dbf732fb2d225a82badf06a1830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api.AuthApi.authenticateAsString</definition>
+        <argsstring>(string grant_type, string email, string password, string refresh_token)</argsstring>
+        <name>authenticateAsString</name>
+        <param>
+          <type>string</type>
+          <declname>grant_type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>refresh_token</declname>
+        </param>
+        <briefdescription>
+<para>Creates or refreshes authorization tokens </para>        </briefdescription>
+        <detaileddescription>
+<para>This <ulink url="http://oauth.net/2/">OAuth2</ulink> compliant endpoint can be used both create new authorization tokens or to refresh an existing ones. There are three types of authorization tokens provided by this endpoint.</para><para><variablelist>
+<varlistentry><term>Access token</term></varlistentry>
+<listitem><para>The access token is used to authorize requests on your 28.io account. These methods are currently unstable and are not documented yet.</para></listitem>
+<varlistentry><term>Refresh Token</term></varlistentry>
+<listitem><para>This token is used to renew the validity of your current authorization tokens.</para></listitem>
+<varlistentry><term><ref refid="namespace__28_1_1io_1_1Project" kindref="compound">Project</ref> token</term></varlistentry>
+<listitem><para>This token is used to authorize requests to a 28.io project. For instance, the project token named <computeroutput>myproject</computeroutput> can be used to authorize any request to the <computeroutput><ulink url="http://myproject.28.io">http://myproject.28.io</ulink></computeroutput> endpoint.</para></listitem>
+</variablelist>
+</para><para>Any successful request to this endpoint will return the access, refresh, and project tokens.</para><para>To create new authorization tokens, the <computeroutput>grant_type</computeroutput> parameter must be set to <computeroutput>client_credentials</computeroutput> and the <computeroutput>email</computeroutput>. The <computeroutput>password</computeroutput> parameters must be specified as well.</para><para>To refresh the validity of your authorized tokens, the <computeroutput>grant_type</computeroutput> parameter must be set to <computeroutput>refresh_token</computeroutput> and the <computeroutput>refresh_token</computeroutput> parameter must be specified. In this scenario, new authorization tokens will be granted.</para><para>The format of the expiration date of a token is <ulink url="http://www.w3.org/TR/xmlschema-2/#isoformats">ISO 8601 compliant</ulink>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grant_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Authorization grant type. Use &lt;code&gt;client_credentials&lt;/code&gt; to create a token or &lt;code&gt;refresh_token&lt;/code&gt; to refresh a token</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account email. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account password. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refresh_token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The &lt;code&gt;refresh_token&lt;/code&gt; obtained in the last successful request to this endpoint. Mandatory if &lt;code&gt;grant_type=refresh_token&lt;/code&gt;.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="90" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="90" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="7" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="7" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a982b4e5491672a827bfdf394c2d56920" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>apiInvoker</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ace2311d9c4fb212895f330ecde216878" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>authenticate</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a6c858dbf732fb2d225a82badf06a1830" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>authenticateAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ad9fdc079116e1af576ed30a7ad2de13b" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>basePath</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a648a117fbe27caa9cae5d72e2461bb00" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>getBasePath</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a1b4b242a4517ad22db2a1d8b3efd23cc" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>getInvoker</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a92921d7da7f66eb716131330cce773f2" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>setBasePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

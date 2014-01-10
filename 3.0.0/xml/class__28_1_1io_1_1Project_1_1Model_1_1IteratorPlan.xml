@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan" kind="class" prot="public">
+    <compoundname>_28::io::Project::Model::IteratorPlan</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3a03209d166af923936039a64053cfcd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.kind</definition>
+        <argsstring></argsstring>
+        <name>kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa08f7297c99f724c463d8d5b92d1dafe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan" kindref="compound">IteratorPlan</ref> &gt;</type>
+        <definition>List&lt;IteratorPlan&gt; _28.io.Project.Model.IteratorPlan.iterators</definition>
+        <argsstring></argsstring>
+        <name>iterators</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a7561e0db0c6487e03471d7be81942598" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.allow_atomics</definition>
+        <argsstring></argsstring>
+        <name>allow_atomics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa02b0158c70f103f3e4fe8e6ed731eaf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.ascending</definition>
+        <argsstring></argsstring>
+        <name>ascending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="25" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a8bdd4cfe7f47aa3e7a9aceed6bd6fa45" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.attr_cont</definition>
+        <argsstring></argsstring>
+        <name>attr_cont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="29" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a9b4d56c0c643075a38e29976e966e309" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.cached</definition>
+        <argsstring></argsstring>
+        <name>cached</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="33" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aed54e1dd68c7eeacf2d4bdcf34216e93" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.check_only</definition>
+        <argsstring></argsstring>
+        <name>check_only</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="37" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a49a68a0a6e91d1f55bf5ec1df1e384b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.copyInputNodes</definition>
+        <argsstring></argsstring>
+        <name>copyInputNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="41" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a8873296ef915f585a925cb28165c9f6b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.distinct</definition>
+        <argsstring></argsstring>
+        <name>distinct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="45" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3def24fac30ff5128520b44a67509916" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.doc_test_kind</definition>
+        <argsstring></argsstring>
+        <name>doc_test_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="49" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abf4ea8693b59720e471d28acb671e146" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.function</definition>
+        <argsstring></argsstring>
+        <name>function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="53" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a71f0f610ed3bef6bb97ac00a47047e6a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="57" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aaa14e5aa5fdb23b503091e52e918a9ec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.inputVar</definition>
+        <argsstring></argsstring>
+        <name>inputVar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="61" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3f7dff4f63b98f0ed6aa351357c43d06" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.is_dynamic</definition>
+        <argsstring></argsstring>
+        <name>is_dynamic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="65" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1af7e788b95cd447491c88572f6ee2b8c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.materialize</definition>
+        <argsstring></argsstring>
+        <name>materialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="69" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a49a6877c2efa88e4b62a19d0fe7201fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="73" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ae93bfe55436aad38a23554e6adf37477" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.need_to_copy</definition>
+        <argsstring></argsstring>
+        <name>need_to_copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="77" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa05fca2da546d61c70c4e86a4240ec67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.nill_allowed</definition>
+        <argsstring></argsstring>
+        <name>nill_allowed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="81" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1af471f516f224f254bdfe500693b12c58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.pos_referenced_by</definition>
+        <argsstring></argsstring>
+        <name>pos_referenced_by</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="85" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a7610202406733825f77ba9015eaa38c1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.qname</definition>
+        <argsstring></argsstring>
+        <name>qname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="89" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a08b0dcbeb7b396efdd20a5b737f98d55" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.quant</definition>
+        <argsstring></argsstring>
+        <name>quant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="93" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa896b89e56e19cb504ce314bf63958f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.referenced_by</definition>
+        <argsstring></argsstring>
+        <name>referenced_by</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="97" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abe1efb4f5650f452e79b52cf997891ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.skip</definition>
+        <argsstring></argsstring>
+        <name>skip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="101" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a520bbe0bede686146e7f0df40f578a5a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.target_position</definition>
+        <argsstring></argsstring>
+        <name>target_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="105" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a9e2abf9a1b27fdc362a05851363d8913" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.targetPos</definition>
+        <argsstring></argsstring>
+        <name>targetPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="109" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1adb7a2864bc1b725338373f2db35466a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.test_kind</definition>
+        <argsstring></argsstring>
+        <name>test_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="113" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a764f165134ae3625073b07dbdfbf1545" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="117" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ab13a7470196cff8b81785abe3bff56ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="125" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abef3f36d7f11472888b9f7f41be7f120" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.varid</definition>
+        <argsstring></argsstring>
+        <name>varid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="129" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a794b9d0fe13243ec56a637d420d63e33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.varkind</definition>
+        <argsstring></argsstring>
+        <name>varkind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="133" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ac069c54927799d4a8f0681730f924013" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.IteratorPlan.varname</definition>
+        <argsstring></argsstring>
+        <name>varname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="137" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a6cf9c394f2ebfdb91a14d440c73ed7ba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>_28.io.Project.Model.IteratorPlan.string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <initializer>{ get</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="121" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ac4c7687c7372027a68dbd7b893005ae9" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>_28.io.Project.Model.IteratorPlan.set</definition>
+        <argsstring></argsstring>
+        <name>set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="121" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/IteratorPlan.cs" bodystart="10" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a7561e0db0c6487e03471d7be81942598" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>allow_atomics</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa02b0158c70f103f3e4fe8e6ed731eaf" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>ascending</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a8bdd4cfe7f47aa3e7a9aceed6bd6fa45" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>attr_cont</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a9b4d56c0c643075a38e29976e966e309" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>cached</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aed54e1dd68c7eeacf2d4bdcf34216e93" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>check_only</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a49a68a0a6e91d1f55bf5ec1df1e384b0" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>copyInputNodes</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a8873296ef915f585a925cb28165c9f6b" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>distinct</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3def24fac30ff5128520b44a67509916" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>doc_test_kind</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abf4ea8693b59720e471d28acb671e146" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>function</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a71f0f610ed3bef6bb97ac00a47047e6a" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>id</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aaa14e5aa5fdb23b503091e52e918a9ec" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>inputVar</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3f7dff4f63b98f0ed6aa351357c43d06" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>is_dynamic</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa08f7297c99f724c463d8d5b92d1dafe" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>iterators</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a3a03209d166af923936039a64053cfcd" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>kind</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1af7e788b95cd447491c88572f6ee2b8c4" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>materialize</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a49a6877c2efa88e4b62a19d0fe7201fb" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>name</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ae93bfe55436aad38a23554e6adf37477" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>need_to_copy</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa05fca2da546d61c70c4e86a4240ec67" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>nill_allowed</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1af471f516f224f254bdfe500693b12c58" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>pos_referenced_by</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a7610202406733825f77ba9015eaa38c1" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>qname</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a08b0dcbeb7b396efdd20a5b737f98d55" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>quant</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1aa896b89e56e19cb504ce314bf63958f3" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>referenced_by</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ac4c7687c7372027a68dbd7b893005ae9" prot="private" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>set</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abe1efb4f5650f452e79b52cf997891ac" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>skip</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a6cf9c394f2ebfdb91a14d440c73ed7ba" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>string</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a520bbe0bede686146e7f0df40f578a5a" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>target_position</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a9e2abf9a1b27fdc362a05851363d8913" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>targetPos</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1adb7a2864bc1b725338373f2db35466a3" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>test_kind</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a764f165134ae3625073b07dbdfbf1545" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>type</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ab13a7470196cff8b81785abe3bff56ef" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>value</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1abef3f36d7f11472888b9f7f41be7f120" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>varid</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1a794b9d0fe13243ec56a637d420d63e33" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>varkind</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan_1ac069c54927799d4a8f0681730f924013" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::IteratorPlan</scope><name>varname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

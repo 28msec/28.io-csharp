@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespace__28_1_1io_1_1Project_1_1Model" kind="namespace">
+    <compoundname>_28::io::Project::Model</compoundname>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication" prot="public">_28::io::Project::Model::Authentication</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection" prot="public">_28::io::Project::Model::Collection</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO" prot="public">_28::io::Project::Model::CollectionList28IO</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource" prot="public">_28::io::Project::Model::Datasource</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO" prot="public">_28::io::Project::Model::Item28IO</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan" prot="public">_28::io::Project::Model::IteratorPlan</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1ProjectTokens" prot="public">_28::io::Project::Model::ProjectTokens</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1Query" prot="public">_28::io::Project::Model::Query</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing" prot="public">_28::io::Project::Model::QueryListing</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" prot="public">_28::io::Project::Model::QueryResult28IO</innerclass>
+    <innerclass refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" prot="public">_28::io::Project::Model::Success</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,2079 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi" kind="class" prot="public">
+    <compoundname>_28::io::Project::Api::_datasourcesApi</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1afbdd549dacd73002a4c1dd21468c7980" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.basePath</definition>
+        <argsstring></argsstring>
+        <name>basePath</name>
+        <initializer>= &quot;http://portal.28.io/v1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="8" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ad56ab0e04b2cb1d598313a721e940cde" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
+        <definition>readonly ApiInvoker _28.io.Project.Api._datasourcesApi.apiInvoker</definition>
+        <argsstring></argsstring>
+        <name>apiInvoker</name>
+        <initializer>= ApiInvoker.GetInstance()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="9" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a418efbcb863bc3c850f69db3482e43a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
+        <definition>ApiInvoker _28.io.Project.Api._datasourcesApi.getInvoker</definition>
+        <argsstring>()</argsstring>
+        <name>getInvoker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="11" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1affac54e3796cf349b0569a5d0cb99fe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void _28.io.Project.Api._datasourcesApi.setBasePath</definition>
+        <argsstring>(string basePath)</argsstring>
+        <name>setBasePath</name>
+        <param>
+          <type>string</type>
+          <declname>basePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="16" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a7d45d87fc1f473130cec6a76a1f758da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String _28.io.Project.Api._datasourcesApi.getBasePath</definition>
+        <argsstring>()</argsstring>
+        <name>getBasePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a0a8b36282e82bf769ff20bb788a8d7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource" kindref="compound">Datasource</ref> &gt;</type>
+        <definition>List&lt;Datasource&gt; _28.io.Project.Api._datasourcesApi.listDatasources</definition>
+        <argsstring>(string token)</argsstring>
+        <name>listDatasources</name>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Lists all data sources </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the data sources that are configured for a project.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="31" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="31" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a4fdfd3f1aafc8fe10f1544cd2f24465e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.listDatasourcesAsString</definition>
+        <argsstring>(string token)</argsstring>
+        <name>listDatasourcesAsString</name>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Lists all data sources </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the data sources that are configured for a project.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="72" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="72" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1afbeeca0feff0c185040ed202a48a36d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Datasource" kindref="compound">Datasource</ref> &gt;</type>
+        <definition>List&lt;Datasource&gt; _28.io.Project.Api._datasourcesApi.listCategoryDatasources</definition>
+        <argsstring>(string category, string token)</argsstring>
+        <name>listCategoryDatasources</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Lists all data sources in a specific category </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the list of data sources from a specific category configured for the project. If no data source is present in the specified category an empty array is returned.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="107" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="107" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ae878ac5fcfe66d423e41920ea6ecffe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.listCategoryDatasourcesAsString</definition>
+        <argsstring>(string category, string token)</argsstring>
+        <name>listCategoryDatasourcesAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Lists all data sources in a specific category </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the list of data sources from a specific category configured for the project. If no data source is present in the specified category an empty array is returned.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="149" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="149" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a99036cd796fda7072e83a1599b205179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.createDatasource</definition>
+        <argsstring>(string category, string name, string token, bool _default, string body)</argsstring>
+        <name>createDatasource</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_default</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new data source </para>        </briefdescription>
+        <detaileddescription>
+<para>This method creates a new data source. According to the specified data source category, the connection to the data source will be tested within this method. If the test does not pass the credentials will not be stored and the reponse status code will be set to 422.</para><para>Currently, the default MongoDB data source cannot be created using this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the data source. The data source name can contain any alphabetic letter, numbers, dots, or dashes, and must start with an alphabetic letter.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the new data source will be the default one for its category. The default value is false.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data sources credentials as JSON.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="187" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="187" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a978929b76a3ccd8d296d5df924b85573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.createDatasourceAsString</definition>
+        <argsstring>(string category, string name, string token, bool _default, string body)</argsstring>
+        <name>createDatasourceAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_default</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new data source </para>        </briefdescription>
+        <detaileddescription>
+<para>This method creates a new data source. According to the specified data source category, the connection to the data source will be tested within this method. If the test does not pass the credentials will not be stored and the reponse status code will be set to 422.</para><para>Currently, the default MongoDB data source cannot be created using this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the data source. The data source name can contain any alphabetic letter, numbers, dots, or dashes, and must start with an alphabetic letter.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the new data source will be the default one for its category. The default value is false.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data sources credentials as JSON.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="240" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="240" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a3235b441a6dad8393302553ed745eed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object _28.io.Project.Api._datasourcesApi.getDatasource</definition>
+        <argsstring>(string category, string datasource, string token)</argsstring>
+        <name>getDatasource</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a data source credentials </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves credentials from data source.</para><para>Currently, the default MongoDB credentials cannot be retrieved using this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="284" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="284" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ab32dfb23f87630e72388355351bcfa89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.getDatasourceAsString</definition>
+        <argsstring>(string category, string datasource, string token)</argsstring>
+        <name>getDatasourceAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a data source credentials </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves credentials from data source.</para><para>Currently, the default MongoDB credentials cannot be retrieved using this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="327" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="327" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ada588e7a0c20297065c47ecff3ffe9a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.updateDatasource</definition>
+        <argsstring>(string category, string datasource, string token, string name, bool _default, string body)</argsstring>
+        <name>updateDatasource</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_default</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Updates a data source </para>        </briefdescription>
+        <detaileddescription>
+<para>This method updates a data source changing its name, whether it is default or not, or its credentials. At least one change, that is, one of the optional parameters, must be specified.</para><para>Currently, the default MongoDB data source cannot be modified through this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new name of the data source. If not specified the data source is not renamed.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the data source should become (if true) or cease to be (if false) the default one for its category. If not specified the data source does not change its default status.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new data sources credentials as JSON. If not specified the data sources credentials are not changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="366" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="366" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aa192e15592156a52e605c31d83a06f18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.updateDatasourceAsString</definition>
+        <argsstring>(string category, string datasource, string token, string name, bool _default, string body)</argsstring>
+        <name>updateDatasourceAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_default</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Updates a data source </para>        </briefdescription>
+        <detaileddescription>
+<para>This method updates a data source changing its name, whether it is default or not, or its credentials. At least one change, that is, one of the optional parameters, must be specified.</para><para>Currently, the default MongoDB data source cannot be modified through this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new name of the data source. If not specified the data source is not renamed.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the data source should become (if true) or cease to be (if false) the default one for its category. If not specified the data source does not change its default status.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new data sources credentials as JSON. If not specified the data sources credentials are not changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="420" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="420" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abfed0f8b553d54c621571f05fe2e1cdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.removeDatasource</definition>
+        <argsstring>(string category, string datasource, string token)</argsstring>
+        <name>removeDatasource</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes a data source </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes a data source.</para><para>Currently, the default MongoDB data source cannot be deleted through this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="464" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="464" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a958f97a6fa36245e138cb6011b87974b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.removeDatasourceAsString</definition>
+        <argsstring>(string category, string datasource, string token)</argsstring>
+        <name>removeDatasourceAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes a data source </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes a data source.</para><para>Currently, the default MongoDB data source cannot be deleted through this method.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="507" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="507" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a2f35db5bb5e24b1d5ccfae2575e74f68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection" kindref="compound">Collection</ref> &gt;</type>
+        <definition>List&lt;Collection&gt; _28.io.Project.Api._datasourcesApi.getDatasourceContents</definition>
+        <argsstring>(string category, string datasource, string token)</argsstring>
+        <name>getDatasourceContents</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>List available collections </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the list of available collections from a data source.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="543" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="543" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aecc45e20465e735bcb5472c89da62b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.getDatasourceContentsAsString</definition>
+        <argsstring>(string category, string datasource, string token)</argsstring>
+        <name>getDatasourceContentsAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>List available collections </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the list of available collections from a data source.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="586" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="586" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a5e4cd8bbcd895e29093c1a889d2dba45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.createCollection</definition>
+        <argsstring>(string category, string datasource, string name, string token)</argsstring>
+        <name>createCollection</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Creates collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method creates a new collection within a data source.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the new collection.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="623" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="623" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a57aa59b6405746a9f323e6757d754d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.createCollectionAsString</definition>
+        <argsstring>(string category, string datasource, string name, string token)</argsstring>
+        <name>createCollectionAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Creates collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method creates a new collection within a data source.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the new collection.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="671" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="671" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ab06ecd195e48fc618c5e05a144ef6488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection" kindref="compound">Collection</ref></type>
+        <definition>Collection _28.io.Project.Api._datasourcesApi.getCollectionMetadata</definition>
+        <argsstring>(string category, string datasource, string collection, string token)</argsstring>
+        <name>getCollectionMetadata</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves metadata about a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the metadata of a collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="712" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="712" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a3a230e59eace82a2ba5f49ab39f1ce02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.getCollectionMetadataAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string token)</argsstring>
+        <name>getCollectionMetadataAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves metadata about a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the metadata of a collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="756" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="756" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ace65dcd0b924211ee0ef76caada2d9f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.removeCollection</definition>
+        <argsstring>(string category, string datasource, string collection, string token)</argsstring>
+        <name>removeCollection</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes a collection from a data source.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="793" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="793" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a31858ad5d884aa8991097bfcf3d3069e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.removeCollectionAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string token)</argsstring>
+        <name>removeCollectionAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes a collection from a data source.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="837" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="837" bodyend="864"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a0ff2837a3f1e2dbad698b8d8bec96a08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1CollectionList28IO" kindref="compound">CollectionList28IO</ref></type>
+        <definition>CollectionList28IO _28.io.Project.Api._datasourcesApi.listCollection</definition>
+        <argsstring>(string category, string datasource, string collection, string token, int offset, int limit, bool expand)</argsstring>
+        <name>listCollection</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>expand</declname>
+        </param>
+        <briefdescription>
+<para>Lists collection items </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves a list of items a the collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the first item from which to start listing the collection items. Default is 1.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of collection items to list. Default is 10.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>expand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to include the serialized item in the listing. The default value is false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="877" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="877" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abb1072ea297976388efd17933af465ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.listCollectionAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string token, int offset, int limit, bool expand)</argsstring>
+        <name>listCollectionAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>expand</declname>
+        </param>
+        <briefdescription>
+<para>Lists collection items </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves a list of items a the collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the first item from which to start listing the collection items. Default is 1.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of collection items to list. Default is 10.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>expand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to include the serialized item in the listing. The default value is false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="936" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="936" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a90b40fbebbdbef103d132aa2bdd3b9c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.insertInCollection</definition>
+        <argsstring>(string category, string datasource, string collection, string token, string body)</argsstring>
+        <name>insertInCollection</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Inserts an item into a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method inserts an item into a data source collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item to insert.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="986" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="986" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ac2c5d002f04a3c5d36123063aa637726" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.insertInCollectionAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string token, string body)</argsstring>
+        <name>insertInCollectionAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Inserts an item into a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method inserts an item into a data source collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item to insert.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1031" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1031" bodyend="1058"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1adda890019d62a64fbbca5a307547e3fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.truncateCollection</definition>
+        <argsstring>(string category, string datasource, string collection, string token)</argsstring>
+        <name>truncateCollection</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Truncates a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method truncates a collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1068" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1068" bodyend="1101"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a7ef0ae59cbd4396d0f46caab6f91c555" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.truncateCollectionAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string token)</argsstring>
+        <name>truncateCollectionAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Truncates a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method truncates a collection.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1112" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1112" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1adfe17b2907007059fcda4cada91d2559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object _28.io.Project.Api._datasourcesApi.getItem</definition>
+        <argsstring>(string category, string datasource, string collection, string identifier, string token)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a collection item </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves a collection item.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item identifier.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1150" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1150" bodyend="1183"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ae3fddc477da1a18c6e5d1a79384f1d98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.getItemAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string identifier, string token)</argsstring>
+        <name>getItemAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves a collection item </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves a collection item.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item identifier.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1195" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1195" bodyend="1222"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abb1cd4d44b2356c18c9fa4ee36f8727f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.updateItem</definition>
+        <argsstring>(string category, string datasource, string collection, string identifier, string token, string body)</argsstring>
+        <name>updateItem</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Updates a collection item </para>        </briefdescription>
+        <detaileddescription>
+<para>This method updates a collection item.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item identifier.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new item.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1234" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1234" bodyend="1267"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aa9b2ff3c118ae744593cc3000b77644a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.updateItemAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string identifier, string token, string body)</argsstring>
+        <name>updateItemAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+<para>Updates a collection item </para>        </briefdescription>
+        <detaileddescription>
+<para>This method updates a collection item.</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item identifier.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new item.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1280" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1280" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a2e2fc85a5ead7d0e3bf810ec8d2c9158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
+        <definition>Success _28.io.Project.Api._datasourcesApi.removeItem</definition>
+        <argsstring>(string category, string datasource, string collection, string identifier, string token)</argsstring>
+        <name>removeItem</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes an item from a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes an item from a collection</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item identifier.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1318" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1318" bodyend="1351"/>
+      </memberdef>
+      <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1acfedb308bc84151cd99591eb3e2309b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string _28.io.Project.Api._datasourcesApi.removeItemAsString</definition>
+        <argsstring>(string category, string datasource, string collection, string identifier, string token)</argsstring>
+        <name>removeItemAsString</name>
+        <param>
+          <type>string</type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>datasource</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>Removes an item from a collection </para>        </briefdescription>
+        <detaileddescription>
+<para>This method removes an item from a collection</para><para>Currently, this method is only available for MongoDB data sources.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>category</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source category.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datasource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data source name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The collection name.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item identifier.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>token</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A project token.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="1363" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="1363" bodyend="1390"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" line="7" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs" bodystart="7" bodyend="1391"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ad56ab0e04b2cb1d598313a721e940cde" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>apiInvoker</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1afbdd549dacd73002a4c1dd21468c7980" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>basePath</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a5e4cd8bbcd895e29093c1a889d2dba45" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>createCollection</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a57aa59b6405746a9f323e6757d754d0b" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>createCollectionAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a99036cd796fda7072e83a1599b205179" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>createDatasource</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a978929b76a3ccd8d296d5df924b85573" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>createDatasourceAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a7d45d87fc1f473130cec6a76a1f758da" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getBasePath</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ab06ecd195e48fc618c5e05a144ef6488" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getCollectionMetadata</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a3a230e59eace82a2ba5f49ab39f1ce02" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getCollectionMetadataAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a3235b441a6dad8393302553ed745eed4" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getDatasource</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ab32dfb23f87630e72388355351bcfa89" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getDatasourceAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a2f35db5bb5e24b1d5ccfae2575e74f68" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getDatasourceContents</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aecc45e20465e735bcb5472c89da62b93" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getDatasourceContentsAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a418efbcb863bc3c850f69db3482e43a7" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getInvoker</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1adfe17b2907007059fcda4cada91d2559" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getItem</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ae3fddc477da1a18c6e5d1a79384f1d98" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>getItemAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a90b40fbebbdbef103d132aa2bdd3b9c9" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>insertInCollection</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ac2c5d002f04a3c5d36123063aa637726" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>insertInCollectionAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1afbeeca0feff0c185040ed202a48a36d6" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>listCategoryDatasources</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ae878ac5fcfe66d423e41920ea6ecffe2" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>listCategoryDatasourcesAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a0ff2837a3f1e2dbad698b8d8bec96a08" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>listCollection</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abb1072ea297976388efd17933af465ae" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>listCollectionAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a0a8b36282e82bf769ff20bb788a8d7c6" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>listDatasources</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a4fdfd3f1aafc8fe10f1544cd2f24465e" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>listDatasourcesAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ace65dcd0b924211ee0ef76caada2d9f7" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>removeCollection</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a31858ad5d884aa8991097bfcf3d3069e" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>removeCollectionAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abfed0f8b553d54c621571f05fe2e1cdb" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>removeDatasource</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a958f97a6fa36245e138cb6011b87974b" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>removeDatasourceAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a2e2fc85a5ead7d0e3bf810ec8d2c9158" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>removeItem</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1acfedb308bc84151cd99591eb3e2309b9" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>removeItemAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1affac54e3796cf349b0569a5d0cb99fe5" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>setBasePath</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1adda890019d62a64fbbca5a307547e3fc" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>truncateCollection</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1a7ef0ae59cbd4396d0f46caab6f91c555" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>truncateCollectionAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1ada588e7a0c20297065c47ecff3ffe9a5" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>updateDatasource</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aa192e15592156a52e605c31d83a06f18" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>updateDatasourceAsString</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1abb1cd4d44b2356c18c9fa4ee36f8727f" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>updateItem</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__datasourcesApi_1aa9b2ff3c118ae744593cc3000b77644a" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::_datasourcesApi</scope><name>updateItemAsString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

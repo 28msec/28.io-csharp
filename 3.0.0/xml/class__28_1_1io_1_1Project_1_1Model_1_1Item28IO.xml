@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO" kind="class" prot="public">
+    <compoundname>_28::io::Project::Model::Item28IO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1a3d518a7da8ead177d01c43032c18d892" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.Item28IO.contentType</definition>
+        <argsstring></argsstring>
+        <name>contentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1aac198edf929cfedb3f2369e91f6c84dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.Item28IO.href</definition>
+        <argsstring></argsstring>
+        <name>href</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1a7d3547ed224347e71aef6ef2409c32a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string _28.io.Project.Model.Item28IO.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1a7d3547ed224347e71aef6ef2409c32a0" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Item28IO</scope><name>content</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1a3d518a7da8ead177d01c43032c18d892" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Item28IO</scope><name>contentType</name></member>
+      <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Item28IO_1aac198edf929cfedb3f2369e91f6c84dd" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Item28IO</scope><name>href</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
