@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="13" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="13" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1a3dcc132e37480777b6c1c797d833b23b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>DateTime</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="17" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="17" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1ae2d36d1249cd445137b737d7766d0770" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>string</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="21" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="21" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1a04c1b5efb0777459e7f90e16459cf3d6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>string</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="25" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="25" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="25" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1aef9fd83c17508588d426cd2f0985d851" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1ProjectTokens" kindref="compound">ProjectTokens</ref></type>
@@ -66,14 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="29" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="29" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="29" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="10" bodyend="31"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" line="10" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Authentication.cs" bodystart="10" bodyend="31"/>
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1ae2d36d1249cd445137b737d7766d0770" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Authentication</scope><name>access_token</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication_1a3dcc132e37480777b6c1c797d833b23b" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Authentication</scope><name>expiration_date</name></member>

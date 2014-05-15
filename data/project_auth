@@ -1,7 +1,7 @@
 {
     "apiVersion": "1.0",
     "swaggerVersion": "1.2",
-    "basePath": "http://portal.28.io",
+    "basePath": "http://portal.28.io/api",
     "resourcePath": "/auth",
     "produces": ["application/json"],
     "description": "<p>This OAuth2 compliant API can be used to authorize requests. The endpoint for these methods is <code>http://portal.28.io/api/auth</code>.</p>",
@@ -84,14 +84,14 @@
                         {
                             "title": "Granting a new authorization token",
                             "description": "The following request creates a new authorization token.",
-                            "request": "curl -X POST http://portal.28.io/auth?email=my@email.com&password=mypassword&grant_type=client_credentials",
+                            "request": "curl -X POST http://portal.28.io/api/auth?email=my@email.com&password=mypassword&grant_type=client_credentials",
                             "response": "< 200 OK\n{\n  \"token_type\" : \"bearer\",\n   \"expiration_date\" : \"2013-11-06T01:54:29.83945Z\",\n   \"access_token\" : \"dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==\",\n   \"refresh_token\" : \"dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==\",\n   \"project_tokens\" : {\n    \"project_zurich\" : \"QllXcXM3OHV4N2IweitabGZKeExkZVBreGZJPToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==\"  },\n   \"accountMetadata\" : {\n    \"id\" : \"1\",\n     \"email\" : \"my@email.com\",\n     \"firstname\" : \"John\",\n     \"lastname\" : \"Smith\",\n     \"company\" : \"Acme\",\n     \"createdAt\" : \"2013-10-31T15:26:12.702226Z\",\n     \"type\" : \"free\",\n     \"confirmedAt\" : \"2013-10-31T15:26:31.081456Z\"\n  },\n   \"projectsMetadata\" : [{\n    \"name\" : \"zurich\",\n     \"created\" : \"2013-10-31T15:59:55.117077Z\",\n     \"package\" : \"free\",\n     \"status\" : \"active\",\n     \"avatarKey\" : 8,\n     \"version\" : \"1.0\",\n     \"sausaVesion\" : \"2.8.0\",\n     \"lastUpdated\" : \"2013-10-31T15:59:55.117077Z\",\n     \"lastModified\" : \"2013-10-31T15:59:55.117077Z\",\n     \"databaseType\" : \"28msec\"\n  }]\n}"
                         }
                         ,
                         {
                             "title": "Refreshing an authorization token",
                             "description": "The following request refreshes the validity of an authorization token.",
-                            "request": "curl -X POST http://portal.28.io/auth?refresh_token=dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==&grant_type=refresh_token",
+                            "request": "curl -X POST http://portal.28.io/api/auth?refresh_token=dGZKZ0VYT1VWV2l1R1BLQ1NBTjVmcEJlWU04PToyMDEzLTExLTA2VDAxOjU0OjI5LjgzOTQ1Wg==&grant_type=refresh_token",
                             "response": "< 200 OK\n{\n  \"token_type\" : \"bearer\",\n   \"expiration_date\" : \"2013-11-06T02:17:50.769451Z\",\n   \"access_token\" : \"ejRISUlaY2FFNUs2dGZOQ0FrTnRRY2hRVkNnPToyMDEzLTExLTA2VDAyOjE3OjUwLjc2OTQ1MVo=\",\n   \"refresh_token\" : \"ejRISUlaY2FFNUs2dGZOQ0FrTnRRY2hRVkNnPToyMDEzLTExLTA2VDAyOjE3OjUwLjc2OTQ1MVo=\",\n   \"project_tokens\" : {\n    \"project_zurich\" : \"aUhxKzRJRU1VbHhwWS9OWGNsS2lDdXpKVXNrPToyMDEzLTExLTA2VDAyOjE3OjUwLjc2OTQ1MVo=\"\n  }\n}"
                         }
                     ]

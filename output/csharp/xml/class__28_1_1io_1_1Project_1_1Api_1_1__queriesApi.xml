@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="8" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="8" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="8" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="8" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aabe1524f66c3408931a78fa3264c1ae1" prot="private" static="no" mutable="no">
         <type>readonly <ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="9" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="9" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="9" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="11" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="11" bodyend="13"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="11" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="11" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a6ab046f78d32ef35c5a45548cd9b6d00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="16" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="16" bodyend="18"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="16" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="16" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7c3f25fa79e922553a5c8c2b5433fb7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="21" bodyend="23"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="21" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="21" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aa2ab3d73942345045922214615388308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryListing" kindref="compound">QueryListing</ref></type>
@@ -111,7 +111,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="32" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="32" bodyend="65"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="32" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="32" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4146ba5e15c82fb7d4d571a8c2788604" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -148,7 +148,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="74" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="74" bodyend="101"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="74" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="74" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a7a3d58c6ba93d6a18f1b97df953cccd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" kindref="compound">QueryResult28IO</ref></type>
@@ -266,7 +266,7 @@ In case no charset has been specified for that mime-type in the <computeroutput>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="110" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="110" bodyend="143"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="110" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="110" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a953d04be5141cd6523b812ae4ceb06eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -384,7 +384,7 @@ In case no charset has been specified for that mime-type in the <computeroutput>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="153" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="153" bodyend="180"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="153" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="153" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1acda67ff00bcb5581ea8fc85bef3def0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1QueryResult28IO" kindref="compound">QueryResult28IO</ref></type>
@@ -504,7 +504,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="189" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="189" bodyend="222"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="189" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="189" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab071843d2a9a1954a52ff93b0c207bbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -624,7 +624,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="232" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="232" bodyend="259"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="232" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="232" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1afdecaf52eea03198221fa8619198cea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -661,7 +661,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="267" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="267" bodyend="300"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="267" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="267" bodyend="300"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a030935acf64ff27d707da304605b26a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -698,7 +698,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="309" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="309" bodyend="336"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="309" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="309" bodyend="336"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a87395bd13b07e8e06126a83bafa879e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
@@ -746,7 +746,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="345" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="345" bodyend="378"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="345" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="345" bodyend="378"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a666dfa7a388087a7aa4e7f2c48449e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -794,7 +794,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="388" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="388" bodyend="415"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="388" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="388" bodyend="415"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a06312ea06e71eb4220352bfd3e9075e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
@@ -842,7 +842,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="424" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="424" bodyend="457"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="424" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="424" bodyend="457"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ab0620e7c1a5c9a176d46bd1eaeee7df9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -890,7 +890,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="467" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="467" bodyend="494"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="467" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="467" bodyend="494"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1ad1093fea05ace2793fa7b30fa4105714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Success" kindref="compound">Success</ref></type>
@@ -927,7 +927,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="502" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="502" bodyend="535"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="502" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="502" bodyend="535"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aab508b95865f2a674936561effc45ac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -964,7 +964,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="544" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="544" bodyend="571"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="544" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="544" bodyend="571"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a16318c734478f0c3318731f9e2c00e5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1IteratorPlan" kindref="compound">IteratorPlan</ref></type>
@@ -1001,7 +1001,7 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="579" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="579" bodyend="612"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="579" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="579" bodyend="612"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a4cd5a60f27b797e21704feeed9f32046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -1038,14 +1038,14 @@ In case no charset has been set by the query or specified for that mime-type in 
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="621" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="621" bodyend="648"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="621" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="621" bodyend="648"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="7" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="7" bodyend="649"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" line="7" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs" bodystart="7" bodyend="649"/>
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1aabe1524f66c3408931a78fa3264c1ae1" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>apiInvoker</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1__queriesApi_1a2a531ab483ec75595a726ffc1773a3b8" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::_queriesApi</scope><name>basePath</name></member>

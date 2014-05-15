@@ -34,6 +34,6 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
     </programlisting>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Item28IO.cs"/>
   </compounddef>
 </doxygen>

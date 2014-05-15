@@ -120,6 +120,6 @@
 <codeline lineno="104"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs"/>
   </compounddef>
 </doxygen>

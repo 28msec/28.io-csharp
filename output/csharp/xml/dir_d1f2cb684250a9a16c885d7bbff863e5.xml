@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_d1f2cb684250a9a16c885d7bbff863e5" kind="dir">
+    <compoundname>_28.io-csharp</compoundname>
+    <innerdir refid="dir_102ab31ecefa22391498757a3ee94a86">_28.io-csharp/output</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/"/>
+  </compounddef>
+</doxygen>

@@ -1111,6 +1111,6 @@
 <codeline lineno="1391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="1392"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
     </programlisting>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_datasourcesApi.cs"/>
   </compounddef>
 </doxygen>

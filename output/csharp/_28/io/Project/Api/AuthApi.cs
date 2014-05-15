@@ -5,7 +5,7 @@ using _28.io.Project;
 using _28.io.Project.Model;
   namespace _28.io.Project.Api {
     public class AuthApi {
-      string basePath = "http://portal.28.io";
+      string basePath = "http://portal.28.io/api";
       private readonly ApiInvoker apiInvoker = ApiInvoker.GetInstance();
 
       public ApiInvoker getInvoker() {

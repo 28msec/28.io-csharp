@@ -16,7 +16,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>_28.io.Project.Model;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">_28.io.Project.Api<sp/>{</highlight></codeline>
 <codeline lineno="7" refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi" kindref="compound">AuthApi</ref><sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>basePath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http://portal.28.io&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>basePath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http://portal.28.io/api&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref><sp/>apiInvoker<sp/>=<sp/>ApiInvoker.GetInstance();</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref><sp/>getInvoker()<sp/>{</highlight></codeline>
@@ -123,6 +123,6 @@
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
     </programlisting>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs"/>
   </compounddef>
 </doxygen>

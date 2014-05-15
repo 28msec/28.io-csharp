@@ -8,14 +8,14 @@
         <definition>string _28.io.Project.Api.AuthApi.basePath</definition>
         <argsstring></argsstring>
         <name>basePath</name>
-        <initializer>= &quot;http://portal.28.io&quot;</initializer>
+        <initializer>= &quot;http://portal.28.io/api&quot;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="8" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="8" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="8" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="8" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a982b4e5491672a827bfdf394c2d56920" prot="private" static="no" mutable="no">
         <type>readonly <ref refid="class__28_1_1io_1_1Project_1_1ApiInvoker" kindref="compound">ApiInvoker</ref></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="9" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="9" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="9" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="11" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="11" bodyend="13"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="11" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="11" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a92921d7da7f66eb716131330cce773f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="16" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="16" bodyend="18"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="16" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="16" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a648a117fbe27caa9cae5d72e2461bb00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>String</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="21" bodyend="23"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="21" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="21" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ace2311d9c4fb212895f330ecde216878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class__28_1_1io_1_1Project_1_1Model_1_1Authentication" kindref="compound">Authentication</ref></type>
@@ -141,7 +141,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="34" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="34" bodyend="79"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="34" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="34" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a6c858dbf732fb2d225a82badf06a1830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -208,14 +208,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="90" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="90" bodyend="129"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="90" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="90" bodyend="129"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="7" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="7" bodyend="130"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" line="7" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/AuthApi.cs" bodystart="7" bodyend="130"/>
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1a982b4e5491672a827bfdf394c2d56920" prot="private" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>apiInvoker</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Api_1_1AuthApi_1ace2311d9c4fb212895f330ecde216878" prot="public" virt="non-virtual"><scope>_28::io::Project::Api::AuthApi</scope><name>authenticate</name></member>

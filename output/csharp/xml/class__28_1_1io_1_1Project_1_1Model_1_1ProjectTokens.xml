@@ -14,14 +14,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" bodystart="13" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" line="13" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" bodystart="10" bodyend="15"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" line="10" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/ProjectTokens.cs" bodystart="10" bodyend="15"/>
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1Model_1_1ProjectTokens_1adfdd06584feef1b6d5c02b37ce45840f" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::ProjectTokens</scope><name>project__name_</name></member>
     </listofallmembers>

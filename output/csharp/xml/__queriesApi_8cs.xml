@@ -540,6 +540,6 @@
 <codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
     </programlisting>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Api/_queriesApi.cs"/>
   </compounddef>
 </doxygen>

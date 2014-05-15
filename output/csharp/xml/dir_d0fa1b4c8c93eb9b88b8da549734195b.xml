@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_d0fa1b4c8c93eb9b88b8da549734195b" kind="dir">
+    <compoundname>_28.io-csharp/output/csharp/_28/io/Project</compoundname>
+    <innerdir refid="dir_77649272a8ffb016cf61af5a3de1f10a">_28.io-csharp/output/csharp/_28/io/Project/Api</innerdir>
+    <innerdir refid="dir_33fe6279811ae31a54454234e4060b20">_28.io-csharp/output/csharp/_28/io/Project/Model</innerdir>
+    <innerfile refid="ApiException_8cs">ApiException.cs</innerfile>
+    <innerfile refid="ApiInvoker_8cs">ApiInvoker.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/"/>
+  </compounddef>
+</doxygen>

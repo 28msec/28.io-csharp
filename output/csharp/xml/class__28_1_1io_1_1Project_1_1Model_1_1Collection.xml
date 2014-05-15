@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="13" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="13" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="13" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1a6e3f657cbfcc0c6d0517d6f7490a27ba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>string</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="17" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="17" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="17" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1ab22d3272fea344dc481d51be1fec52e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>string</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="21" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="21" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="21" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1aceb8e520b26c8b51669e58e07e3b452b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>int</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="25" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="25" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="25" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1a43c6fd816a4e0bd3d90c5662155632a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>int</type>
@@ -66,14 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="29" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="29" bodyend="-1"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="29" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="10" column="1" bodyfile="/home/vagrant/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="10" bodyend="31"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" line="10" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/Model/Collection.cs" bodystart="10" bodyend="31"/>
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1a43c6fd816a4e0bd3d90c5662155632a1" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Collection</scope><name>countIndexes</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1Model_1_1Collection_1aceb8e520b26c8b51669e58e07e3b452b" prot="public" virt="non-virtual"><scope>_28::io::Project::Model::Collection</scope><name>countItems</name></member>

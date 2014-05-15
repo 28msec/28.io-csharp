@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>_28.io.Project</name>
+    </assembly>
+    <members>
+        <member name="M:_28.io.Project.Api.AuthApi.authenticate(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates or refreshes authorization tokens
+            </summary>
+            <p>This <a href="http://oauth.net/2/" target="_blank">OAuth2</a> compliant endpoint can be used both create new authorization tokens or to refresh an existing ones. There are three types of authorization tokens provided by this endpoint.</p><dl class="dl-horizontal"><dt>Access token</dt><dd>The access token is used to authorize requests on your 28.io account. These methods are currently unstable and are not documented yet.</dd><dt>Refresh Token</dt><dd>This token is used to renew the validity of your current authorization tokens.</dd><dt>Project token</dt><dd>This token is used to authorize requests to a 28.io project. For instance, the project token named <code>myproject</code> can be used to authorize any request to the <code>http://myproject.28.io</code> endpoint.</dd></dl><p>Any successful request to this endpoint will return the access, refresh, and project tokens.</p><p>To create new authorization tokens, the <code>grant_type</code> parameter must be set to <code>client_credentials</code> and the <code>email</code>. The <code>password</code> parameters must be specified as well.</p><p>To refresh the validity of your authorized tokens, the <code>grant_type</code> parameter must be set to <code>refresh_token</code> and the <code>refresh_token</code> parameter must be specified. In this scenario, new authorization tokens will be granted.</p><p>The format of the expiration date of a token is <a href="http://www.w3.org/TR/xmlschema-2/#isoformats" target="_blank">ISO 8601 compliant</a>.</p>
+            <param name="grant_type">Authorization grant type. Use &lt;code&gt;client_credentials&lt;/code&gt; to create a token or &lt;code&gt;refresh_token&lt;/code&gt; to refresh a token</param>
+            <param name="email">The account email. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</param>
+            <param name="password">The account password. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</param>
+            <param name="refresh_token">The &lt;code&gt;refresh_token&lt;/code&gt; obtained in the last successful request to this endpoint.  Mandatory if &lt;code&gt;grant_type=refresh_token&lt;/code&gt;.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api.AuthApi.authenticateAsString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates or refreshes authorization tokens
+            </summary>
+            <p>This <a href="http://oauth.net/2/" target="_blank">OAuth2</a> compliant endpoint can be used both create new authorization tokens or to refresh an existing ones. There are three types of authorization tokens provided by this endpoint.</p><dl class="dl-horizontal"><dt>Access token</dt><dd>The access token is used to authorize requests on your 28.io account. These methods are currently unstable and are not documented yet.</dd><dt>Refresh Token</dt><dd>This token is used to renew the validity of your current authorization tokens.</dd><dt>Project token</dt><dd>This token is used to authorize requests to a 28.io project. For instance, the project token named <code>myproject</code> can be used to authorize any request to the <code>http://myproject.28.io</code> endpoint.</dd></dl><p>Any successful request to this endpoint will return the access, refresh, and project tokens.</p><p>To create new authorization tokens, the <code>grant_type</code> parameter must be set to <code>client_credentials</code> and the <code>email</code>. The <code>password</code> parameters must be specified as well.</p><p>To refresh the validity of your authorized tokens, the <code>grant_type</code> parameter must be set to <code>refresh_token</code> and the <code>refresh_token</code> parameter must be specified. In this scenario, new authorization tokens will be granted.</p><p>The format of the expiration date of a token is <a href="http://www.w3.org/TR/xmlschema-2/#isoformats" target="_blank">ISO 8601 compliant</a>.</p>
+            <param name="grant_type">Authorization grant type. Use &lt;code&gt;client_credentials&lt;/code&gt; to create a token or &lt;code&gt;refresh_token&lt;/code&gt; to refresh a token</param>
+            <param name="email">The account email. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</param>
+            <param name="password">The account password. Mandatory if &lt;code&gt;grant_type=client_credentials&lt;/code&gt;.</param>
+            <param name="refresh_token">The &lt;code&gt;refresh_token&lt;/code&gt; obtained in the last successful request to this endpoint.  Mandatory if &lt;code&gt;grant_type=refresh_token&lt;/code&gt;.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.listDatasources(System.String)">
+            <summary>
+            Lists all data sources
+            </summary>
+            <p>This method retrieves the data sources that are configured for a project.</p>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.listDatasourcesAsString(System.String)">
+            <summary>
+            Lists all data sources
+            </summary>
+            <p>This method retrieves the data sources that are configured for a project.</p>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.listCategoryDatasources(System.String,System.String)">
+            <summary>
+            Lists all data sources in a specific category
+            </summary>
+            <p>This method retrieves the list of data sources from a specific category configured for the project. If no data source is present in the specified category an empty array is returned.</p>
+            <param name="category">The data source category.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.listCategoryDatasourcesAsString(System.String,System.String)">
+            <summary>
+            Lists all data sources in a specific category
+            </summary>
+            <p>This method retrieves the list of data sources from a specific category configured for the project. If no data source is present in the specified category an empty array is returned.</p>
+            <param name="category">The data source category.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.createDatasource(System.String,System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates a new data source
+            </summary>
+            <p>This method creates a new data source. According to the specified data source category, the connection to the data source will be tested within this method. If the test does not pass the credentials will not be stored and the reponse status code will be set to 422.</p><p class="callout-warning">Currently, the default MongoDB data source cannot be created using this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="name">The name of the data source. The data source name can contain any alphabetic letter, numbers, dots, or dashes, and must start with an alphabetic letter.</param>
+            <param name="token">A project token.</param>
+            <param name="_default">Whether the new data source will be the default one for its category. The default value is false.</param>
+            <param name="body">The data sources credentials as JSON.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.createDatasourceAsString(System.String,System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates a new data source
+            </summary>
+            <p>This method creates a new data source. According to the specified data source category, the connection to the data source will be tested within this method. If the test does not pass the credentials will not be stored and the reponse status code will be set to 422.</p><p class="callout-warning">Currently, the default MongoDB data source cannot be created using this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="name">The name of the data source. The data source name can contain any alphabetic letter, numbers, dots, or dashes, and must start with an alphabetic letter.</param>
+            <param name="token">A project token.</param>
+            <param name="_default">Whether the new data source will be the default one for its category. The default value is false.</param>
+            <param name="body">The data sources credentials as JSON.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getDatasource(System.String,System.String,System.String)">
+            <summary>
+            Retrieves a data source credentials
+            </summary>
+            <p>This method retrieves credentials from data source.</p><p class="callout-warning">Currently, the default MongoDB credentials cannot be retrieved using this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getDatasourceAsString(System.String,System.String,System.String)">
+            <summary>
+            Retrieves a data source credentials
+            </summary>
+            <p>This method retrieves credentials from data source.</p><p class="callout-warning">Currently, the default MongoDB credentials cannot be retrieved using this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.updateDatasource(System.String,System.String,System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Updates a data source
+            </summary>
+            <p>This method updates a data source changing its name, whether it is default or not, or its credentials. At least one change, that is, one of the optional parameters, must be specified.</p><p class="callout-warning">Currently, the default MongoDB data source cannot be modified through this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <param name="name">The new name of the data source. If not specified the data source is not renamed.</param>
+            <param name="_default">Whether the data source should become (if true) or cease to be (if false) the default one for its category. If not specified the data source does not change its default status.</param>
+            <param name="body">The new data sources credentials as JSON. If not specified the data sources credentials are not changed</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.updateDatasourceAsString(System.String,System.String,System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Updates a data source
+            </summary>
+            <p>This method updates a data source changing its name, whether it is default or not, or its credentials. At least one change, that is, one of the optional parameters, must be specified.</p><p class="callout-warning">Currently, the default MongoDB data source cannot be modified through this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <param name="name">The new name of the data source. If not specified the data source is not renamed.</param>
+            <param name="_default">Whether the data source should become (if true) or cease to be (if false) the default one for its category. If not specified the data source does not change its default status.</param>
+            <param name="body">The new data sources credentials as JSON. If not specified the data sources credentials are not changed</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.removeDatasource(System.String,System.String,System.String)">
+            <summary>
+            Removes a data source
+            </summary>
+            <p>This method removes a data source.</p><p class="callout-warning">Currently, the default MongoDB data source cannot be deleted through this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.removeDatasourceAsString(System.String,System.String,System.String)">
+            <summary>
+            Removes a data source
+            </summary>
+            <p>This method removes a data source.</p><p class="callout-warning">Currently, the default MongoDB data source cannot be deleted through this method.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getDatasourceContents(System.String,System.String,System.String)">
+            <summary>
+            List available collections
+            </summary>
+            <p>This method retrieves the list of available collections from a data source.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getDatasourceContentsAsString(System.String,System.String,System.String)">
+            <summary>
+            List available collections
+            </summary>
+            <p>This method retrieves the list of available collections from a data source.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.createCollection(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates collection
+            </summary>
+            <p>This method creates a new collection within a data source.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="name">The name of the new collection.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.createCollectionAsString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates collection
+            </summary>
+            <p>This method creates a new collection within a data source.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="name">The name of the new collection.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getCollectionMetadata(System.String,System.String,System.String,System.String)">
+            <summary>
+            Retrieves metadata about a collection
+            </summary>
+            <p>This method retrieves the metadata of a collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getCollectionMetadataAsString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Retrieves metadata about a collection
+            </summary>
+            <p>This method retrieves the metadata of a collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.removeCollection(System.String,System.String,System.String,System.String)">
+            <summary>
+            Removes a collection
+            </summary>
+            <p>This method removes a collection from a data source.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.removeCollectionAsString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Removes a collection
+            </summary>
+            <p>This method removes a collection from a data source.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.listCollection(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Lists collection items
+            </summary>
+            <p>This method retrieves a list of items a the collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <param name="offset">The index of the first item from which to start listing the collection items. Default is 1.</param>
+            <param name="limit">The number of collection items to list. Default is 10.</param>
+            <param name="expand">Whether to include the serialized item in the listing. The default value is false.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.listCollectionAsString(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Lists collection items
+            </summary>
+            <p>This method retrieves a list of items a the collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <param name="offset">The index of the first item from which to start listing the collection items. Default is 1.</param>
+            <param name="limit">The number of collection items to list. Default is 10.</param>
+            <param name="expand">Whether to include the serialized item in the listing. The default value is false.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.insertInCollection(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Inserts an item into a collection
+            </summary>
+            <p>This method inserts an item into a data source collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The item to insert.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.insertInCollectionAsString(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Inserts an item into a collection
+            </summary>
+            <p>This method inserts an item into a data source collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The item to insert.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.truncateCollection(System.String,System.String,System.String,System.String)">
+            <summary>
+            Truncates a collection
+            </summary>
+            <p>This method truncates a collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.truncateCollectionAsString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Truncates a collection
+            </summary>
+            <p>This method truncates a collection.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getItem(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Retrieves a collection item
+            </summary>
+            <p>This method retrieves a collection item.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="identifier">The item identifier.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.getItemAsString(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Retrieves a collection item
+            </summary>
+            <p>This method retrieves a collection item.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="identifier">The item identifier.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.updateItem(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Updates a collection item
+            </summary>
+            <p>This method updates a collection item.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="identifier">The item identifier.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The new item.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.updateItemAsString(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Updates a collection item
+            </summary>
+            <p>This method updates a collection item.</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="identifier">The item identifier.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The new item.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.removeItem(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Removes an item from a collection
+            </summary>
+            <p>This method removes an item from a collection</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="identifier">The item identifier.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._datasourcesApi.removeItemAsString(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Removes an item from a collection
+            </summary>
+            <p>This method removes an item from a collection</p><p class="callout-warning">Currently, this method is only available for MongoDB data sources.</p>
+            <param name="category">The data source category.</param>
+            <param name="datasource">The data source name.</param>
+            <param name="collection">The collection name.</param>
+            <param name="identifier">The item identifier.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.listQueries(System.String,System.String)">
+            <summary>
+            Lists public and/or private queries
+            </summary>
+            <p>This method retrieves a list of queries that belong to a project. To only list public (resp. private) queries set the <code>visibility</code> parameter to <code>public</code> (resp. <code>private</code>). To list both public and private queries, omit the <code>visibility</code> parameter.</p>
+            <param name="visibility">The query visibility.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.listQueriesAsString(System.String,System.String)">
+            <summary>
+            Lists public and/or private queries
+            </summary>
+            <p>This method retrieves a list of queries that belong to a project. To only list public (resp. private) queries set the <code>visibility</code> parameter to <code>public</code> (resp. <code>private</code>). To list both public and private queries, omit the <code>visibility</code> parameter.</p>
+            <param name="visibility">The query visibility.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:_28.io.Project.Api._queriesApi.executeSimpleQuery(System.String,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:_28.io.Project.Api._queriesApi.executeSimpleQueryAsString(System.String,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:_28.io.Project.Api._queriesApi.executeQuery(System.String,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:_28.io.Project.Api._queriesApi.executeQueryAsString(System.String,System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:_28.io.Project.Api._queriesApi.getQuery(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:_28.io.Project.Api._queriesApi.getQueryAsString(System.String,System.String)" -->
+        <member name="M:_28.io.Project.Api._queriesApi.createQuery(System.String,System.String,System.String)">
+            <summary>
+            Creates a new query
+            </summary>
+            <p>This method creates a new query resource.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The source code of the query</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.createQueryAsString(System.String,System.String,System.String)">
+            <summary>
+            Creates a new query
+            </summary>
+            <p>This method creates a new query resource.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The source code of the query</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.saveQuery(System.String,System.String,System.String)">
+            <summary>
+            Creates or updates a query
+            </summary>
+            <p>This method updates the source code of an existing query.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The query source code</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.saveQueryAsString(System.String,System.String,System.String)">
+            <summary>
+            Creates or updates a query
+            </summary>
+            <p>This method updates the source code of an existing query.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <param name="body">The query source code</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.removeQuery(System.String,System.String)">
+            <summary>
+            Removes a query
+            </summary>
+            <p>This method removes a query.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.removeQueryAsString(System.String,System.String)">
+            <summary>
+            Removes a query
+            </summary>
+            <p>This method removes a query.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.getQueryPlan(System.String,System.String)">
+            <summary>
+            Retrieves a query execution plan
+            </summary>
+            <p>This method retrieves the execution plan of a query.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:_28.io.Project.Api._queriesApi.getQueryPlanAsString(System.String,System.String)">
+            <summary>
+            Retrieves a query execution plan
+            </summary>
+            <p>This method retrieves the execution plan of a query.</p>
+            <param name="query_path">The query path. It starts with &quot;public&quot; or &quot;private&quot; and contains slashes.</param>
+            <param name="token">A project token.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
