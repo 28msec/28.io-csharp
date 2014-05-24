@@ -60,7 +60,15 @@ namespace {{invokerPackage}} {
         host = host.EndsWith("/") ? host.Substring(0, host.Length - 1) : host;
 
         var client = WebRequest.Create(host + path + querystring);
-        client.ContentType = "application/json";
+        if (headerParams.ContainsKey("Content-Type"))
+        {
+            client.ContentType = headerParams["Content-Type"];
+            headerParams.Remove("Content-Type");
+        }
+        else
+        {
+            client.ContentType = "application/json";
+        }
 
         foreach (var headerParamsItem in headerParams)
         {
@@ -71,6 +79,7 @@ namespace {{invokerPackage}} {
             client.Headers.Add(defaultHeaderMapItem.Key, defaultHeaderMapItem.Value);
         }
     
+        client.Method = method;
         switch (method)
         {
             case "GET":
@@ -87,7 +96,6 @@ namespace {{invokerPackage}} {
             default:
                 throw new ApiException(500, "unknown method type " + method);         
         }
-        client.Method = method;
 
         var webResponse = (HttpWebResponse) client.GetResponse();
         if (webResponse.StatusCode != HttpStatusCode.OK &&

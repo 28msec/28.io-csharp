@@ -161,14 +161,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="47" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="47" bodyend="102"/>
+        <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="47" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="47" bodyend="110"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="10" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="10" bodyend="103"/>
+    <location file="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" line="10" column="1" bodyfile="D:/28msec/swagger-codegen/swagger-codegen/_28.io-csharp/output/csharp/_28/io/Project/ApiInvoker.cs" bodystart="10" bodyend="111"/>
     <listofallmembers>
       <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1a5be3572a0d2b5358cea7d8dda6639aff" prot="private" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>_instance</name></member>
       <member refid="class__28_1_1io_1_1Project_1_1ApiInvoker_1aadd4b97bda294e9a7851354f05b47325" prot="public" virt="non-virtual"><scope>_28::io::Project::ApiInvoker</scope><name>addDefaultHeader</name></member>
